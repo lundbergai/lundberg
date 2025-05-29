@@ -118,7 +118,7 @@ const Index = () => {
                 <div className="space-y-3">
                   <div className="flex items-center text-sm">
                     <Mail className="w-4 h-4 mr-3 text-gray-500" />
-                    <a href={`mailto:${contact.email}`} className="text-blue-600 hover:underline">
+                    <a href={`mailto:${contact.email}`} className="text-slate-600 hover:text-slate-800 hover:underline transition-colors">
                       {contact.email}
                     </a>
                   </div>
@@ -128,19 +128,19 @@ const Index = () => {
                   </div>
                   <div className="flex items-center text-sm">
                     <Linkedin className="w-4 h-4 mr-3 text-gray-500" />
-                    <a href={`https://${contact.linkedin}`} className="text-blue-600 hover:underline">
+                    <a href={`https://${contact.linkedin}`} className="text-slate-600 hover:text-slate-800 hover:underline transition-colors">
                       {contact.linkedin}
                     </a>
                   </div>
                   <div className="flex items-center text-sm">
                     <Github className="w-4 h-4 mr-3 text-gray-500" />
-                    <a href={`https://${contact.github}`} className="text-blue-600 hover:underline">
+                    <a href={`https://${contact.github}`} className="text-slate-600 hover:text-slate-800 hover:underline transition-colors">
                       {contact.github}
                     </a>
                   </div>
                   <div className="flex items-center text-sm">
                     <Globe className="w-4 h-4 mr-3 text-gray-500" />
-                    <a href={`https://${contact.website}`} className="text-blue-600 hover:underline">
+                    <a href={`https://${contact.website}`} className="text-slate-600 hover:text-slate-800 hover:underline transition-colors">
                       {contact.website}
                     </a>
                   </div>
@@ -157,7 +157,7 @@ const Index = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">{education.school}</h3>
-                  <p className="text-blue-600 font-medium">{education.degree}</p>
+                  <p className="text-gray-700 font-medium">{education.degree}</p>
                   <p className="text-gray-500 text-sm mb-3">{education.period}</p>
                   <ul className="space-y-1">
                     {education.details.map((detail, index) => (
@@ -258,7 +258,7 @@ const Index = () => {
                       
                       <div className="mb-4">
                         <h3 className="text-lg font-semibold text-gray-900">{job.role}</h3>
-                        <p className="text-blue-600 font-medium">{job.company}</p>
+                        <p className="text-gray-700 font-medium">{job.company}</p>
                         <p className="text-gray-500 text-sm">{job.period}</p>
                       </div>
                       
@@ -278,20 +278,20 @@ const Index = () => {
                           {job.projects.map((project, projectIndex) => (
                             <div
                               key={projectIndex}
-                              className="group border border-gray-200 rounded-lg p-4 hover:border-blue-300 hover:shadow-md transition-all duration-200 cursor-pointer"
+                              className="group border border-gray-200 rounded-lg p-4 hover:border-slate-400 hover:shadow-md transition-all duration-200 cursor-pointer"
                               onClick={() => window.open(project.url, '_blank')}
                             >
                               <div className="aspect-video bg-gray-50 rounded mb-3 flex items-center justify-center">
                                 <span className="material-icons text-gray-400 text-4xl">{project.icon}</span>
                               </div>
                               <div className="flex items-center justify-between mb-2">
-                                <h5 className="font-medium text-gray-900 group-hover:text-blue-700 transition-colors">
+                                <h5 className="font-medium text-gray-900 group-hover:text-slate-700 transition-colors">
                                   {project.name}
                                 </h5>
-                                <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-blue-600 transition-colors" />
+                                <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-slate-600 transition-colors" />
                               </div>
                               <p className="text-sm text-gray-600 mb-3">{project.description}</p>
-                              <button className="text-blue-600 text-sm hover:underline">
+                              <button className="text-slate-600 text-sm hover:text-slate-800 hover:underline transition-colors">
                                 View Details →
                               </button>
                             </div>
