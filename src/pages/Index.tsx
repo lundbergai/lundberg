@@ -1,192 +1,305 @@
 
 import React from 'react';
-import { ExternalLink, Github, Linkedin, Mail, MapPin } from 'lucide-react';
+import { ExternalLink, Github, Linkedin, Mail, MapPin, Phone, Globe } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
 
 const Index = () => {
   const workExperience = [
     {
-      company: "EQT",
-      role: "Software Engineer",
-      period: "(April 2024 - Current)",
-      description: "Currently working in the Motherbrain Labs team at EQT.",
+      company: "TechCorp Inc.",
+      role: "Senior Software Engineer",
+      period: "Jan 2022 - Present",
+      description: "Led the development of large-scale data-driven web applications using React, Node.js and PostgreSQL.",
+      achievements: [
+        "Integrated AI-powered recommendation engine, improving user engagement by 25%",
+        "Mentored junior developers and conducted code reviews to maintain high-quality standards",
+        "Collaborated with product managers and designers to define project scope and deliverables"
+      ],
       projects: [
-        { name: "AI Investment Analysis Platform", url: "#", description: "Machine learning platform for investment decision support" },
-        { name: "Data Pipeline Optimization", url: "#", description: "Streamlined data processing for financial analytics" }
+        { name: "AI Recommendation Engine", url: "#", description: "Developed and integrated an AI-powered product recommendation system" },
+        { name: "Customer Portal Revamp", url: "#", description: "Complete overhaul of the customer-facing portal for improved UX and performance" }
       ]
     },
     {
-      company: "DrHud",
-      role: "Lead Engineer",
-      period: "(May 2023 - April 2024)",
-      description: "Worked as the lead engineer for DrHud, a startup building a telemedicine platform for dermatology.",
+      company: "Web Dynamics LLC",
+      role: "Software Developer", 
+      period: "Jun 2019 - Dec 2021",
+      description: "Developed and maintained responsive websites and web applications for small to medium-sized businesses.",
+      achievements: [
+        "Utilized JavaScript, HTML, CSS, and various frontend frameworks like Angular and Vue.js",
+        "Contributed to backend development using PHP and MySQL"
+      ],
       projects: [
-        { name: "Telemedicine Platform", url: "#", description: "Built the initial platform in NextJS/NestJS on Google Cloud" },
-        { name: "EHR Integration", url: "#", description: "Integrated an electronic health record (EHR) into the platform (Webdoc)" }
-      ]
-    },
-    {
-      company: "Symbiosis",
-      role: "Founder",
-      period: "(March 2022 - Oct 2023)",
-      description: "Founded and built a cloud infrastructure company that offered a managed Kubernetes platform.",
-      projects: [
-        { name: "Kubernetes Platform", url: "#", description: "Built the fastest and cheapest Kubernetes platform, outperforming competitors" },
-        { name: "Cloud Infrastructure Blog", url: "#", description: "Created a blog featured in major Kubernetes newsletters and podcasts" }
-      ]
-    },
-    {
-      company: "Utopia",
-      role: "Engineering Manager",
-      period: "(Oct 2021 - March 2022)",
-      description: "Worked as an engineering manager for the two core infrastructure teams.",
-      projects: [
-        { name: "Media Processing Pipeline", url: "#", description: "Responsible for capture, processing and data enrichment of multiple media sources" },
-        { name: "Team Development Program", url: "#", description: "Established code reviews and retrospectives for continuous improvement" }
+        { name: "E-commerce Platform for SMBs", url: "#", description: "Built a customizable e-commerce solution for small businesses" }
       ]
     }
   ];
 
-  const skills = [
-    ".NET (C#, ASP.NET Web, MVC, REST API, EF Core)",
-    "AI (OpenAI API Prompt Engineering, Generation)",
-    "Authentication (MSAL, Entra ID, JWT, OAuth)",
-    "Collaboration (Git, DevOps, DevSecOps, Azure Micro)",
-    "Data (SQL, MSSQL, SQLite, LINQ, JSON, XML)",
-    "Infrastructure (Azure DevOps, CI/CD Pipelines, Pulumi IaC)",
-    "Low-level (C++, Solidity, gRPC, Java)",
-    "Testing (TDD, Unit Testing, Integration Testing)",
-    "Tools (Visual Studio, VS Code, Rider, Figma, Postman, Copilot)",
-    "Virtualization (Docker, Linux, VMWare, OpenVPN)",
-    "Web (React, TypeScript, Vite, Node.js, HTML, CSS)"
-  ];
+  const education = {
+    school: "State University",
+    degree: "B.S. in Computer Science",
+    period: "May 2019",
+    details: [
+      "Minor in Mathematics",
+      "GPA: 3.84.0",
+      "Dean's List 2016-2018"
+    ]
+  };
+
+  const skills = {
+    languages: ["JavaScript", "TypeScript", "Python", "HTML5", "CSS3"],
+    frameworks: ["React", "Next.js", "Node.js", "Vue.js", "Express"],
+    tools: ["Git", "Docker"],
+    databases: ["PostgreSQL", "MongoDB"],
+    cloud: ["AWS"],
+    other: ["REST APIs", "GraphQL", "CI/CD Pipelines"]
+  };
+
+  const contact = {
+    email: "alex.johnson@email.com",
+    phone: "555-123-4567",
+    linkedin: "linkedin.com/in/alexjohnsondev",
+    github: "github.com/alexjohnsondev",
+    website: "alexjohnson.dev"
+  };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
-      <div className="max-w-4xl mx-auto px-6 py-12">
+    <div className="min-h-screen bg-white">
+      <div className="max-w-4xl mx-auto px-6 py-8">
         {/* Header */}
-        <header className="mb-12">
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
-            <div>
-              <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-2">BUSTER STYREN</h1>
-              <p className="text-xl text-slate-600 mb-4">Senior Full Stack Engineer & Technical Leader</p>
-            </div>
-            <div className="flex flex-col space-y-2 text-slate-600">
-              <div className="flex items-center space-x-2">
-                <Linkedin className="w-4 h-4" />
-                <a href="#" className="hover:text-blue-600 transition-colors">linkedin</a>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Github className="w-4 h-4" />
-                <a href="#" className="hover:text-blue-600 transition-colors">github</a>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Mail className="w-4 h-4" />
-                <a href="mailto:buster.styren@gmail.com" className="hover:text-blue-600 transition-colors">buster.styren@gmail.com</a>
-              </div>
-            </div>
-          </div>
+        <header className="text-center mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-2">Alex Johnson</h1>
+          <p className="text-lg text-gray-600">Full Stack Developer & AI Enthusiast</p>
         </header>
 
-        {/* Summary */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-semibold text-slate-900 mb-4 border-b border-slate-200 pb-2">SUMMARY</h2>
-          <p className="text-slate-700 text-lg leading-relaxed">
-            Senior Full Stack Engineer with 9+ years of experience. I have built large scale data platforms, 
-            a multi-tenant cloud provider and multiple high throughput API backends. These days I'm mostly 
-            interested in data and cloud infrastructure.
-          </p>
-        </section>
-
-        {/* Work Experience */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-semibold text-slate-900 mb-6 border-b border-slate-200 pb-2">WORK EXPERIENCE</h2>
-          <div className="space-y-8">
-            {workExperience.map((job, index) => (
-              <Card key={index} className="bg-white/70 backdrop-blur-sm border border-slate-200 hover:shadow-lg transition-all duration-300">
-                <CardContent className="p-6">
-                  <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
-                    <div>
-                      <h3 className="text-xl font-semibold text-slate-900">{job.company}</h3>
-                      <p className="text-blue-600 font-medium">{job.role}</p>
-                      <p className="text-slate-500 text-sm">{job.period}</p>
-                    </div>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {/* Left Column */}
+          <div className="lg:col-span-1 space-y-6">
+            {/* About Me */}
+            <Card className="border border-gray-200">
+              <CardContent className="p-6">
+                <div className="flex items-center mb-4">
+                  <div className="w-6 h-6 bg-gray-900 rounded-full flex items-center justify-center mr-3">
+                    <span className="text-white text-sm">@</span>
                   </div>
-                  <p className="text-slate-700 mb-4">{job.description}</p>
-                  
-                  {/* Projects */}
-                  <div className="space-y-2">
-                    <h4 className="text-sm font-medium text-slate-600 uppercase tracking-wide">Featured Projects</h4>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                      {job.projects.map((project, projectIndex) => (
-                        <button
-                          key={projectIndex}
-                          className="group text-left p-3 rounded-lg border border-slate-200 bg-slate-50/50 hover:bg-blue-50 hover:border-blue-300 transition-all duration-200 hover:shadow-md"
-                          onClick={() => window.open(project.url, '_blank')}
-                        >
-                          <div className="flex items-center justify-between mb-1">
-                            <span className="font-medium text-slate-900 group-hover:text-blue-700">
-                              {project.name}
-                            </span>
-                            <ExternalLink className="w-4 h-4 text-slate-400 group-hover:text-blue-600 transition-colors" />
-                          </div>
-                          <p className="text-sm text-slate-600">{project.description}</p>
-                        </button>
+                  <h2 className="text-xl font-semibold">About Me</h2>
+                </div>
+                <p className="text-gray-700 text-sm leading-relaxed">
+                  Innovative Full Stack Developer with 5+ years of experience in building scalable web 
+                  applications and a keen interest in leveraging AI to solve real-world problems. Proven 
+                  ability to manage full project lifecycles, from conception to deployment. Eager to 
+                  contribute technical expertise and creative solutions to a dynamic team.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* Contact */}
+            <Card className="border border-gray-200">
+              <CardContent className="p-6">
+                <div className="flex items-center mb-4">
+                  <div className="w-6 h-6 bg-gray-900 rounded-full flex items-center justify-center mr-3">
+                    <span className="text-white text-sm">📞</span>
+                  </div>
+                  <h2 className="text-xl font-semibold">Contact</h2>
+                </div>
+                <div className="space-y-3">
+                  <div className="flex items-center text-sm">
+                    <Mail className="w-4 h-4 mr-3 text-gray-500" />
+                    <a href={`mailto:${contact.email}`} className="text-blue-600 hover:underline">
+                      {contact.email}
+                    </a>
+                  </div>
+                  <div className="flex items-center text-sm">
+                    <Phone className="w-4 h-4 mr-3 text-gray-500" />
+                    <span className="text-gray-700">{contact.phone}</span>
+                  </div>
+                  <div className="flex items-center text-sm">
+                    <Linkedin className="w-4 h-4 mr-3 text-gray-500" />
+                    <a href={`https://${contact.linkedin}`} className="text-blue-600 hover:underline">
+                      {contact.linkedin}
+                    </a>
+                  </div>
+                  <div className="flex items-center text-sm">
+                    <Github className="w-4 h-4 mr-3 text-gray-500" />
+                    <a href={`https://${contact.github}`} className="text-blue-600 hover:underline">
+                      {contact.github}
+                    </a>
+                  </div>
+                  <div className="flex items-center text-sm">
+                    <Globe className="w-4 h-4 mr-3 text-gray-500" />
+                    <a href={`https://${contact.website}`} className="text-blue-600 hover:underline">
+                      {contact.website}
+                    </a>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Education */}
+            <Card className="border border-gray-200">
+              <CardContent className="p-6">
+                <div className="flex items-center mb-4">
+                  <div className="w-6 h-6 bg-gray-900 rounded-full flex items-center justify-center mr-3">
+                    <span className="text-white text-sm">🎓</span>
+                  </div>
+                  <h2 className="text-xl font-semibold">Education</h2>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900">{education.school}</h3>
+                  <p className="text-blue-600 font-medium">{education.degree}</p>
+                  <p className="text-gray-500 text-sm mb-3">{education.period}</p>
+                  <ul className="space-y-1">
+                    {education.details.map((detail, index) => (
+                      <li key={index} className="text-sm text-gray-700">• {detail}</li>
+                    ))}
+                  </ul>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Skills */}
+            <Card className="border border-gray-200">
+              <CardContent className="p-6">
+                <div className="flex items-center mb-4">
+                  <div className="w-6 h-6 bg-gray-900 rounded-full flex items-center justify-center mr-3">
+                    <span className="text-white text-sm">⚡</span>
+                  </div>
+                  <h2 className="text-xl font-semibold">Skills</h2>
+                </div>
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-medium text-gray-900 mb-2">Language</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {skills.languages.map((skill, index) => (
+                        <Badge key={index} variant="secondary" className="bg-gray-800 text-white text-xs">
+                          {skill}
+                        </Badge>
                       ))}
                     </div>
                   </div>
-                </CardContent>
-              </Card>
-            ))}
+                  <div>
+                    <h4 className="font-medium text-gray-900 mb-2">Framework</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {skills.frameworks.map((skill, index) => (
+                        <Badge key={index} variant="secondary" className="bg-gray-600 text-white text-xs">
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="font-medium text-gray-900 mb-2">Tool</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {skills.tools.map((skill, index) => (
+                        <Badge key={index} variant="secondary" className="bg-gray-700 text-white text-xs">
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="font-medium text-gray-900 mb-2">Database</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {skills.databases.map((skill, index) => (
+                        <Badge key={index} variant="secondary" className="bg-gray-600 text-white text-xs">
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="font-medium text-gray-900 mb-2">Cloud</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {skills.cloud.map((skill, index) => (
+                        <Badge key={index} variant="secondary" className="bg-gray-700 text-white text-xs">
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="font-medium text-gray-900 mb-2">Other</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {skills.other.map((skill, index) => (
+                        <Badge key={index} variant="secondary" className="bg-gray-600 text-white text-xs">
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
           </div>
-        </section>
 
-        {/* Competences */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-semibold text-slate-900 mb-6 border-b border-slate-200 pb-2">COMPETENCES</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {skills.map((skill, index) => (
-              <div
-                key={index}
-                className="p-3 rounded-lg bg-white/70 backdrop-blur-sm border border-slate-200 hover:border-blue-300 hover:shadow-sm transition-all duration-200"
-              >
-                <span className="text-slate-700">{skill}</span>
-              </div>
-            ))}
+          {/* Right Column */}
+          <div className="lg:col-span-2">
+            {/* Work Experience */}
+            <Card className="border border-gray-200">
+              <CardContent className="p-6">
+                <div className="flex items-center mb-6">
+                  <div className="w-6 h-6 bg-gray-900 rounded-full flex items-center justify-center mr-3">
+                    <span className="text-white text-sm">💼</span>
+                  </div>
+                  <h2 className="text-xl font-semibold">Work Experience</h2>
+                </div>
+                
+                <div className="space-y-8">
+                  {workExperience.map((job, index) => (
+                    <div key={index} className="border-l-2 border-gray-200 pl-6 relative">
+                      <div className="absolute -left-2 top-0 w-3 h-3 bg-gray-900 rounded-full"></div>
+                      
+                      <div className="mb-4">
+                        <h3 className="text-lg font-semibold text-gray-900">{job.role}</h3>
+                        <p className="text-blue-600 font-medium">{job.company}</p>
+                        <p className="text-gray-500 text-sm">{job.period}</p>
+                      </div>
+                      
+                      <p className="text-gray-700 text-sm mb-4">{job.description}</p>
+                      
+                      <ul className="space-y-2 mb-4">
+                        {job.achievements.map((achievement, achievementIndex) => (
+                          <li key={achievementIndex} className="text-sm text-gray-700">
+                            • {achievement}
+                          </li>
+                        ))}
+                      </ul>
+                      
+                      <div>
+                        <h4 className="font-medium text-gray-900 mb-3">Projects:</h4>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                          {job.projects.map((project, projectIndex) => (
+                            <div
+                              key={projectIndex}
+                              className="group border border-gray-200 rounded-lg p-4 hover:border-blue-300 hover:shadow-md transition-all duration-200 cursor-pointer"
+                              onClick={() => window.open(project.url, '_blank')}
+                            >
+                              <div className="aspect-video bg-gray-100 rounded mb-3 flex items-center justify-center">
+                                <span className="text-gray-400 text-sm">600 × 400</span>
+                              </div>
+                              <div className="flex items-center justify-between mb-2">
+                                <h5 className="font-medium text-gray-900 group-hover:text-blue-700 transition-colors">
+                                  {project.name}
+                                </h5>
+                                <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-blue-600 transition-colors" />
+                              </div>
+                              <p className="text-sm text-gray-600 mb-3">{project.description}</p>
+                              <button className="text-blue-600 text-sm hover:underline">
+                                View Details →
+                              </button>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
           </div>
-        </section>
-
-        {/* Call to Action */}
-        <section className="text-center">
-          <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-8 text-white">
-            <h3 className="text-2xl font-bold mb-4">Let's Build Something Amazing Together</h3>
-            <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-              I'm always interested in new opportunities and exciting projects. 
-              Feel free to reach out if you'd like to collaborate or discuss potential roles.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                variant="secondary" 
-                size="lg"
-                className="bg-white text-blue-600 hover:bg-blue-50"
-                onClick={() => window.open('mailto:buster.styren@gmail.com')}
-              >
-                <Mail className="w-5 h-5 mr-2" />
-                Get In Touch
-              </Button>
-              <Button 
-                variant="outline" 
-                size="lg"
-                className="border-white text-white hover:bg-white/10"
-                onClick={() => window.open('#')}
-              >
-                <Github className="w-5 h-5 mr-2" />
-                View GitHub
-              </Button>
-            </div>
-          </div>
-        </section>
+        </div>
       </div>
     </div>
   );
