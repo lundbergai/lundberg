@@ -18,8 +18,18 @@ const Index = () => {
         "Collaborated with product managers and designers to define project scope and deliverables"
       ],
       projects: [
-        { name: "AI Recommendation Engine", url: "#", description: "Developed and integrated an AI-powered product recommendation system" },
-        { name: "Customer Portal Revamp", url: "#", description: "Complete overhaul of the customer-facing portal for improved UX and performance" }
+        { 
+          name: "AI Recommendation Engine", 
+          url: "#", 
+          description: "Developed and integrated an AI-powered product recommendation system",
+          icon: "smart_toy"
+        },
+        { 
+          name: "Customer Portal Revamp", 
+          url: "#", 
+          description: "Complete overhaul of the customer-facing portal for improved UX and performance",
+          icon: "web"
+        }
       ]
     },
     {
@@ -32,7 +42,12 @@ const Index = () => {
         "Contributed to backend development using PHP and MySQL"
       ],
       projects: [
-        { name: "E-commerce Platform for SMBs", url: "#", description: "Built a customizable e-commerce solution for small businesses" }
+        { 
+          name: "E-commerce Platform for SMBs", 
+          url: "#", 
+          description: "Built a customizable e-commerce solution for small businesses",
+          icon: "shopping_cart"
+        }
       ]
     }
   ];
@@ -43,7 +58,7 @@ const Index = () => {
     period: "May 2019",
     details: [
       "Minor in Mathematics",
-      "GPA: 3.84.0",
+      "GPA: 3.8/4.0",
       "Dean's List 2016-2018"
     ]
   };
@@ -66,7 +81,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white font-sans">
       <div className="max-w-4xl mx-auto px-6 py-8">
         {/* Header */}
         <header className="text-center mb-8">
@@ -81,9 +96,7 @@ const Index = () => {
             <Card className="border border-gray-200">
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  <div className="w-6 h-6 bg-gray-900 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-white text-sm">@</span>
-                  </div>
+                  <span className="material-icons text-gray-900 mr-3">person</span>
                   <h2 className="text-xl font-semibold">About Me</h2>
                 </div>
                 <p className="text-gray-700 text-sm leading-relaxed">
@@ -99,9 +112,7 @@ const Index = () => {
             <Card className="border border-gray-200">
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  <div className="w-6 h-6 bg-gray-900 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-white text-sm">📞</span>
-                  </div>
+                  <span className="material-icons text-gray-900 mr-3">contact_mail</span>
                   <h2 className="text-xl font-semibold">Contact</h2>
                 </div>
                 <div className="space-y-3">
@@ -141,9 +152,7 @@ const Index = () => {
             <Card className="border border-gray-200">
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  <div className="w-6 h-6 bg-gray-900 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-white text-sm">🎓</span>
-                  </div>
+                  <span className="material-icons text-gray-900 mr-3">school</span>
                   <h2 className="text-xl font-semibold">Education</h2>
                 </div>
                 <div>
@@ -163,9 +172,7 @@ const Index = () => {
             <Card className="border border-gray-200">
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  <div className="w-6 h-6 bg-gray-900 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-white text-sm">⚡</span>
-                  </div>
+                  <span className="material-icons text-gray-900 mr-3">code</span>
                   <h2 className="text-xl font-semibold">Skills</h2>
                 </div>
                 <div className="space-y-4">
@@ -240,9 +247,7 @@ const Index = () => {
             <Card className="border border-gray-200">
               <CardContent className="p-6">
                 <div className="flex items-center mb-6">
-                  <div className="w-6 h-6 bg-gray-900 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-white text-sm">💼</span>
-                  </div>
+                  <span className="material-icons text-gray-900 mr-3">work</span>
                   <h2 className="text-xl font-semibold">Work Experience</h2>
                 </div>
                 
@@ -276,8 +281,8 @@ const Index = () => {
                               className="group border border-gray-200 rounded-lg p-4 hover:border-blue-300 hover:shadow-md transition-all duration-200 cursor-pointer"
                               onClick={() => window.open(project.url, '_blank')}
                             >
-                              <div className="aspect-video bg-gray-100 rounded mb-3 flex items-center justify-center">
-                                <span className="text-gray-400 text-sm">600 × 400</span>
+                              <div className="aspect-video bg-gray-50 rounded mb-3 flex items-center justify-center">
+                                <span className="material-icons text-gray-400 text-4xl">{project.icon}</span>
                               </div>
                               <div className="flex items-center justify-between mb-2">
                                 <h5 className="font-medium text-gray-900 group-hover:text-blue-700 transition-colors">
