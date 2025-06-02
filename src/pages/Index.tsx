@@ -1,13 +1,9 @@
-
-import React, { useState } from 'react';
-import { ExternalLink, Github, Linkedin, Mail, MapPin, Phone, Globe } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import React from 'react';
+import { ExternalLink } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 
 const Index = () => {
-  const [emailPlacement, setEmailPlacement] = useState('header'); // 'header', 'aboutMe', 'standalone'
-
   const workExperience = [
     {
       company: "TechCorp Inc.",
@@ -82,79 +78,15 @@ const Index = () => {
     website: "alexjohnson.dev"
   };
 
-  const renderEmailPlacement = () => {
-    switch (emailPlacement) {
-      case 'header':
-        return (
-          <header className="text-center mb-8">
-            <h1 className="text-4xl font-bold text-gray-900 mb-2">Alex Johnson</h1>
-            <p className="text-lg text-gray-600 mb-1">Full Stack Developer & AI Enthusiast</p>
-            <p className="text-sm text-gray-500">{contact.email}</p>
-          </header>
-        );
-      case 'aboutMe':
-        return (
-          <header className="text-center mb-8">
-            <h1 className="text-4xl font-bold text-gray-900 mb-2">Alex Johnson</h1>
-            <p className="text-lg text-gray-600">Full Stack Developer & AI Enthusiast</p>
-          </header>
-        );
-      case 'standalone':
-        return (
-          <header className="text-center mb-8">
-            <h1 className="text-4xl font-bold text-gray-900 mb-2">Alex Johnson</h1>
-            <p className="text-lg text-gray-600">Full Stack Developer & AI Enthusiast</p>
-          </header>
-        );
-    }
-  };
-
   return (
     <div className="min-h-screen bg-white font-sans">
       <div className="max-w-4xl mx-auto px-6 py-8">
-        {/* Header with different email placement options */}
-        {renderEmailPlacement()}
-        
-        {/* Email placement toggle buttons for demo */}
-        <div className="flex justify-center gap-2 mb-8">
-          <Button 
-            variant={emailPlacement === 'header' ? 'default' : 'outline'} 
-            size="sm"
-            onClick={() => setEmailPlacement('header')}
-          >
-            Header
-          </Button>
-          <Button 
-            variant={emailPlacement === 'aboutMe' ? 'default' : 'outline'} 
-            size="sm"
-            onClick={() => setEmailPlacement('aboutMe')}
-          >
-            About Me
-          </Button>
-          <Button 
-            variant={emailPlacement === 'standalone' ? 'default' : 'outline'} 
-            size="sm"
-            onClick={() => setEmailPlacement('standalone')}
-          >
-            Standalone
-          </Button>
-        </div>
-
-        {/* Standalone email card - only show if standalone is selected */}
-        {emailPlacement === 'standalone' && (
-          <div className="flex justify-center mb-8">
-            <Card className="border border-gray-200 w-fit">
-              <CardContent className="p-4">
-                <div className="flex items-center text-sm">
-                  <Mail className="w-4 h-4 mr-2 text-gray-500" />
-                  <a href={`mailto:${contact.email}`} className="text-slate-600 hover:text-slate-800 hover:underline transition-colors">
-                    {contact.email}
-                  </a>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        )}
+        {/* Header */}
+        <header className="text-center mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-2">Alex Johnson</h1>
+          <p className="text-lg text-gray-600 mb-1">Full Stack Developer & AI Enthusiast</p>
+          <p className="text-sm text-gray-500">{contact.email}</p>
+        </header>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Left Column */}
@@ -166,27 +98,16 @@ const Index = () => {
                   <span className="material-icons text-gray-700 mr-3">person</span>
                   <h2 className="text-xl font-semibold text-gray-700">About Me</h2>
                 </div>
-                <p className="text-gray-700 text-sm leading-relaxed mb-4">
+                <p className="text-gray-700 text-sm leading-relaxed">
                   Innovative Full Stack Developer with 5+ years of experience in building scalable web 
                   applications and a keen interest in leveraging AI to solve real-world problems. Proven 
                   ability to manage full project lifecycles, from conception to deployment. Eager to 
                   contribute technical expertise and creative solutions to a dynamic team.
                 </p>
-                {/* Email in About Me section - only show if aboutMe is selected */}
-                {emailPlacement === 'aboutMe' && (
-                  <div className="pt-3 border-t border-gray-100">
-                    <div className="flex items-center text-sm">
-                      <Mail className="w-4 h-4 mr-2 text-gray-500" />
-                      <a href={`mailto:${contact.email}`} className="text-slate-600 hover:text-slate-800 hover:underline transition-colors">
-                        {contact.email}
-                      </a>
-                    </div>
-                  </div>
-                )}
               </CardContent>
             </Card>
 
-            {/* Skills - moved here from bottom */}
+            {/* Skills */}
             <Card className="border border-gray-200">
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
