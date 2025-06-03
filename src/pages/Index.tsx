@@ -1,7 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ExternalLink } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import Navbar from '@/components/Navbar';
 
 const Index = () => {
   const workExperience = [
@@ -17,14 +19,14 @@ const Index = () => {
       ],
       projects: [
         { 
+          id: 1,
           name: "AI Recommendation Engine", 
-          url: "#", 
           description: "Developed and integrated an AI-powered product recommendation system",
           icon: "smart_toy"
         },
         { 
+          id: 2,
           name: "Customer Portal Revamp", 
-          url: "#", 
           description: "Complete overhaul of the customer-facing portal for improved UX and performance",
           icon: "web"
         }
@@ -41,8 +43,8 @@ const Index = () => {
       ],
       projects: [
         { 
+          id: 3,
           name: "E-commerce Platform for SMBs", 
-          url: "#", 
           description: "Built a customizable e-commerce solution for small businesses",
           icon: "shopping_cart"
         }
@@ -80,12 +82,13 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-white font-sans">
+      <Navbar />
       <div className="max-w-4xl mx-auto px-6 py-8">
         {/* Header */}
         <header className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-2">Alex Johnson</h1>
           <p className="text-lg text-gray-600 mb-1">Full Stack Developer & AI Enthusiast</p>
-          <p className="text-sm text-gray-500">{contact.email}</p>
+          <p className="text-sm text-gray-500">alex.johnson@email.com</p>
         </header>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -235,10 +238,10 @@ const Index = () => {
                         <h4 className="font-medium text-gray-900 mb-3">Projects:</h4>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                           {job.projects.map((project, projectIndex) => (
-                            <div
+                            <Link
                               key={projectIndex}
-                              className="group border border-gray-200 rounded-lg p-4 hover:border-slate-400 hover:shadow-md transition-all duration-200 cursor-pointer"
-                              onClick={() => window.open(project.url, '_blank')}
+                              to={`/projects/${project.id}`}
+                              className="group border border-gray-200 rounded-lg p-4 hover:border-slate-400 hover:shadow-md transition-all duration-200 cursor-pointer block"
                             >
                               <div className="aspect-video bg-gray-50 rounded mb-3 flex items-center justify-center">
                                 <span className="material-icons text-gray-400 text-4xl">{project.icon}</span>
@@ -250,10 +253,10 @@ const Index = () => {
                                 <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-slate-600 transition-colors" />
                               </div>
                               <p className="text-sm text-gray-600 mb-3">{project.description}</p>
-                              <button className="text-slate-600 text-sm hover:text-slate-800 hover:underline transition-colors">
+                              <span className="text-slate-600 text-sm hover:text-slate-800 hover:underline transition-colors">
                                 View Details →
-                              </button>
-                            </div>
+                              </span>
+                            </Link>
                           ))}
                         </div>
                       </div>
