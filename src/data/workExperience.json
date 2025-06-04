@@ -1,0 +1,46 @@
+
+[
+  {
+    "company": "TechCorp Inc.",
+    "role": "Senior Software Engineer",
+    "period": "Jan 2022 - Present",
+    "description": "Led the development of large-scale data-driven web applications using React, Node.js and PostgreSQL.",
+    "achievements": [
+      "Integrated AI-powered recommendation engine, improving user engagement by 25%",
+      "Mentored junior developers and conducted code reviews to maintain high-quality standards",
+      "Collaborated with product managers and designers to define project scope and deliverables"
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "name": "AI Recommendation Engine",
+        "description": "Developed and integrated an AI-powered product recommendation system",
+        "icon": "smart_toy"
+      },
+      {
+        "id": 2,
+        "name": "Customer Portal Revamp",
+        "description": "Complete overhaul of the customer-facing portal for improved UX and performance",
+        "icon": "web"
+      }
+    ]
+  },
+  {
+    "company": "Web Dynamics LLC",
+    "role": "Software Developer",
+    "period": "Jun 2019 - Dec 2021",
+    "description": "Developed and maintained responsive websites and web applications for small to medium-sized businesses.",
+    "achievements": [
+      "Utilized JavaScript, HTML, CSS, and various frontend frameworks like Angular and Vue.js",
+      "Contributed to backend development using PHP and MySQL"
+    ],
+    "projects": [
+      {
+        "id": 3,
+        "name": "E-commerce Platform for SMBs",
+        "description": "Built a customizable e-commerce solution for small businesses",
+        "icon": "shopping_cart"
+      }
+    ]
+  }
+]

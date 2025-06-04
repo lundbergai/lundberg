@@ -1,84 +1,16 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ExternalLink } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import Navbar from '@/components/Navbar';
+import workExperienceData from '@/data/workExperience.json';
+import personalInfoData from '@/data/personalInfo.json';
 
 const Index = () => {
-	const workExperience = [
-		{
-			company: "TechCorp Inc.",
-			role: "Senior Software Engineer",
-			period: "Jan 2022 - Present",
-			description: "Led the development of large-scale data-driven web applications using React, Node.js and PostgreSQL.",
-			achievements: [
-				"Integrated AI-powered recommendation engine, improving user engagement by 25%",
-				"Mentored junior developers and conducted code reviews to maintain high-quality standards",
-				"Collaborated with product managers and designers to define project scope and deliverables"
-			],
-			projects: [
-				{
-					id: 1,
-					name: "AI Recommendation Engine",
-					description: "Developed and integrated an AI-powered product recommendation system",
-					icon: "smart_toy"
-				},
-				{
-					id: 2,
-					name: "Customer Portal Revamp",
-					description: "Complete overhaul of the customer-facing portal for improved UX and performance",
-					icon: "web"
-				}
-			]
-		},
-		{
-			company: "Web Dynamics LLC",
-			role: "Software Developer",
-			period: "Jun 2019 - Dec 2021",
-			description: "Developed and maintained responsive websites and web applications for small to medium-sized businesses.",
-			achievements: [
-				"Utilized JavaScript, HTML, CSS, and various frontend frameworks like Angular and Vue.js",
-				"Contributed to backend development using PHP and MySQL"
-			],
-			projects: [
-				{
-					id: 3,
-					name: "E-commerce Platform for SMBs",
-					description: "Built a customizable e-commerce solution for small businesses",
-					icon: "shopping_cart"
-				}
-			]
-		}
-	];
-
-	const education = {
-		school: "State University",
-		degree: "B.S. in Computer Science",
-		period: "May 2019",
-		details: [
-			"Minor in Mathematics",
-			"GPA: 3.8/4.0",
-			"Dean's List 2016-2018"
-		]
-	};
-
-	const skills = {
-		languages: ["JavaScript", "TypeScript", "Python", "HTML5", "CSS3"],
-		frameworks: ["React", "Next.js", "Node.js", "Vue.js", "Express"],
-		tools: ["Git", "Docker"],
-		databases: ["PostgreSQL", "MongoDB"],
-		cloud: ["AWS"],
-		other: ["REST APIs", "GraphQL", "CI/CD Pipelines"]
-	};
-
-	const contact = {
-		email: "alex.johnson@email.com",
-		phone: "555-123-4567",
-		linkedin: "linkedin.com/in/alexjohnsondev",
-		github: "github.com/alexjohnsondev",
-		website: "alexjohnson.dev"
-	};
+	const { name, title, email, about, education, skills } = personalInfoData;
+	const workExperience = workExperienceData;
 
 	return (
 		<div className="min-h-screen bg-white font-sans">
@@ -86,9 +18,9 @@ const Index = () => {
 			<div className="max-w-4xl mx-auto px-6 py-8">
 				{/* Header */}
 				<header className="text-center mb-8">
-					<h1 className="text-4xl font-bold text-gray-900 mb-2">Alex Johnson</h1>
-					<p className="text-lg text-gray-600 mb-1">Full Stack Developer & AI Enthusiast</p>
-					<p className="text-sm text-gray-500">alex.johnson@email.com</p>
+					<h1 className="text-4xl font-bold text-gray-900 mb-2">{name}</h1>
+					<p className="text-lg text-gray-600 mb-1">{title}</p>
+					<p className="text-sm text-gray-500">{email}</p>
 				</header>
 
 				<div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -102,10 +34,7 @@ const Index = () => {
 									<h2 className="text-xl font-semibold text-gray-700">About Me</h2>
 								</div>
 								<p className="text-gray-700 text-sm leading-relaxed">
-									Innovative Full Stack Developer with 5+ years of experience in building scalable web
-									applications and a keen interest in leveraging AI to solve real-world problems. Proven
-									ability to manage full project lifecycles, from conception to deployment. Eager to
-									contribute technical expertise and creative solutions to a dynamic team.
+									{about}
 								</p>
 							</CardContent>
 						</Card>

@@ -1,0 +1,29 @@
+
+{
+  "name": "Alex Johnson",
+  "title": "Full Stack Developer & AI Enthusiast",
+  "email": "alex.johnson@email.com",
+  "phone": "555-123-4567",
+  "linkedin": "linkedin.com/in/alexjohnsondev",
+  "github": "github.com/alexjohnsondev",
+  "website": "alexjohnson.dev",
+  "about": "Innovative Full Stack Developer with 5+ years of experience in building scalable web applications and a keen interest in leveraging AI to solve real-world problems. Proven ability to manage full project lifecycles, from conception to deployment. Eager to contribute technical expertise and creative solutions to a dynamic team.",
+  "education": {
+    "school": "State University",
+    "degree": "B.S. in Computer Science",
+    "period": "May 2019",
+    "details": [
+      "Minor in Mathematics",
+      "GPA: 3.8/4.0",
+      "Dean's List 2016-2018"
+    ]
+  },
+  "skills": {
+    "languages": ["JavaScript", "TypeScript", "Python", "HTML5", "CSS3"],
+    "frameworks": ["React", "Next.js", "Node.js", "Vue.js", "Express"],
+    "tools": ["Git", "Docker"],
+    "databases": ["PostgreSQL", "MongoDB"],
+    "cloud": ["AWS"],
+    "other": ["REST APIs", "GraphQL", "CI/CD Pipelines"]
+  }
+}
