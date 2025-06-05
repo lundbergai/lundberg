@@ -170,8 +170,12 @@ const Index = () => {
 															to={`/projects/${project.slug}`}
 															className="group border border-gray-200 rounded-lg p-4 hover:border-slate-400 hover:shadow-md transition-all duration-200 cursor-pointer block"
 														>
-															<div className="aspect-video bg-gray-50 rounded mb-3 flex items-center justify-center">
-																<span className="material-icons text-gray-400 text-4xl">{project.icon}</span>
+															<div className="aspect-video bg-gray-50 rounded mb-3 overflow-hidden">
+																<img 
+																	src={project.thumbnail} 
+																	alt={project.name}
+																	className="w-full h-full object-cover"
+																/>
 															</div>
 															<div className="flex items-center justify-between mb-2">
 																<h5 className="font-medium text-gray-900 group-hover:text-slate-700 transition-colors">
