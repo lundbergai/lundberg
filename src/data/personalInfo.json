@@ -8,18 +8,28 @@
   "github": "github.com/viktorlundberg",
   "website": "lundberg.ai",
   "about": "Developer with a background in system development and dual degrees in .NET/React and Economics. Educated in modern AI development. Practical experience in agile test-driven development, CI/CD pipelines in Azure DevOps (including Docker containers), and projects with both .NET Web API/React and .NET Core MVC. Special expertise in algorithmic trading.",
-  "education": {
-    "school": "Lexicon IT Proffs & Luleå University of Technology",
-    "degree": "Fullstack Developer",
-    "period": "2024 - 2025",
-    "details": [
-      "C# .NET (Object Orientation, Error Handling)",
-      "Frontend (HTML, CSS, JavaScript, React)",
-      "Database (SQL, EF Core, Code-First, LINQ)",
-      "ASP.NET Core API (REST, Async, Auth, Swagger)",
-      "Agile Project Work (SCRUM, Git, UX, Figma)"
-    ]
-  },
+  "education": [
+    {
+      "school": "Lexicon IT Proffs & Luleå University of Technology",
+      "degree": "Fullstack Developer",
+      "period": "2024 - 2025"
+    },
+    {
+      "school": "Several Institutions",
+      "degree": "University Courses Computer Science",
+      "period": "2020 - 2022"
+    },
+    {
+      "school": "FutureGames, ChangeMaker Education",
+      "degree": "Game Programming",
+      "period": "2021 - 2021"
+    },
+    {
+      "school": "University of Gävle",
+      "degree": "Bachelor's Degree in Business and Economics",
+      "period": "2015 - 2018"
+    }
+  ],
   "skills": {
     "dotnet": [".NET", "C#", "ASP.NET Web", "MVC", "REST API", "EF Core"],
     "ai": ["OpenAI API", "Prompt Engineering", "Generative AI"],

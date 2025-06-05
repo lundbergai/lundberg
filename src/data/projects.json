@@ -2,6 +2,7 @@
 [
   {
     "id": 1,
+    "slug": "algoskin",
     "name": "AlgoSkin",
     "description": "Algorithmic arbitrage trading system built with Node.js and TypeScript, featuring real-time API integration, data scraping, and complex price calculations for profitable trading operations",
     "heroImage": "/placeholder.svg",
@@ -32,6 +33,7 @@
   },
   {
     "id": 2,
+    "slug": "consultantresume",
     "name": "ConsultantResume",
     "description": "React-based PDF generator for dynamically creating and formatting consultant resumes with strict design requirements, integrated with HR systems using Entra ID authentication",
     "heroImage": "/placeholder.svg",
@@ -62,6 +64,7 @@
   },
   {
     "id": 3,
+    "slug": "lms",
     "name": "LMS",
     "description": "Comprehensive Learning Management System developed as a school group project, featuring user authentication, course management, and interactive learning modules",
     "heroImage": "/placeholder.svg",
@@ -92,6 +95,7 @@
   },
   {
     "id": 4,
+    "slug": "groceryoptimizer",
     "name": "GroceryOptimizer",
     "description": "Optimization system for grocery shopping developed as a school group project, featuring algorithm-based route planning and budget optimization for efficient shopping",
     "heroImage": "/placeholder.svg",

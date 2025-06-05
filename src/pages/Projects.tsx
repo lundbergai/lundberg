@@ -23,7 +23,7 @@ const Projects = () => {
 
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 					{projects.map((project) => (
-						<Link key={project.id} to={`/projects/${project.id}`}>
+						<Link key={project.id} to={`/projects/${project.slug}`}>
 							<Card className="group hover:shadow-lg transition-all duration-200 cursor-pointer h-full">
 								<div className="aspect-video bg-gray-100 rounded-t-lg overflow-hidden">
 									<img

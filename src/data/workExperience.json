@@ -12,7 +12,7 @@
     ],
     "projects": [
       {
-        "id": 2,
+        "slug": "consultantresume",
         "name": "ConsultantResume",
         "description": "React-based PDF generator for dynamically creating consultant resumes",
         "icon": "description"
@@ -31,7 +31,7 @@
     ],
     "projects": [
       {
-        "id": 1,
+        "slug": "algoskin",
         "name": "AlgoSkin",
         "description": "Algorithmic arbitrage trading system with Node.js and TypeScript",
         "icon": "trending_up"
@@ -50,13 +50,13 @@
     ],
     "projects": [
       {
-        "id": 3,
+        "slug": "lms",
         "name": "LMS",
         "description": "Learning Management System built as school group project",
         "icon": "school"
       },
       {
-        "id": 4,
+        "slug": "groceryoptimizer",
         "name": "GroceryOptimizer",
         "description": "Optimization system for grocery shopping built as school group project",
         "icon": "shopping_cart"

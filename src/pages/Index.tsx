@@ -117,23 +117,21 @@ const Index = () => {
 									<span className="material-icons text-gray-700 mr-3">school</span>
 									<h2 className="text-xl font-semibold text-gray-700">Education</h2>
 								</div>
-								<div>
-									<h3 className="font-semibold text-gray-900">{education.school}</h3>
-									<p className="text-gray-700 font-medium">{education.degree}</p>
-									<p className="text-gray-500 text-sm mb-3">{education.period}</p>
-									<ul className="space-y-1">
-										{education.details.map((detail, index) => (
-											<li key={index} className="text-sm text-gray-700">• {detail}</li>
-										))}
-									</ul>
+								<div className="space-y-4">
+									{education.map((edu, index) => (
+										<div key={index}>
+											<h3 className="font-semibold text-gray-900">{edu.school}</h3>
+											<p className="text-gray-700 font-medium">{edu.degree}</p>
+											<p className="text-gray-500 text-sm">{edu.period}</p>
+										</div>
+									))}
 								</div>
 							</CardContent>
 						</Card>
 					</div>
 
-					{/* Right Column - Work Experience section remains the same */}
+					{/* Right Column - Work Experience */}
 					<div className="lg:col-span-2">
-						{/* Work Experience */}
 						<Card className="border border-gray-200">
 							<CardContent className="p-6">
 								<div className="flex items-center mb-6">
@@ -168,7 +166,7 @@ const Index = () => {
 													{job.projects.map((project, projectIndex) => (
 														<Link
 															key={projectIndex}
-															to={`/projects/${project.id}`}
+															to={`/projects/${project.slug}`}
 															className="group border border-gray-200 rounded-lg p-4 hover:border-slate-400 hover:shadow-md transition-all duration-200 cursor-pointer block"
 														>
 															<div className="aspect-video bg-gray-50 rounded mb-3 flex items-center justify-center">

@@ -10,7 +10,7 @@ import projectsData from '@/data/projects.json';
 
 const ProjectDetail = () => {
 	const { id } = useParams();
-	const project = projectsData.find(p => p.id === Number(id));
+	const project = projectsData.find(p => p.slug === id);
 
 	if (!project) {
 		return (
