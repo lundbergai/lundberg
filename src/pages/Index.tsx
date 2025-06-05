@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ExternalLink } from 'lucide-react';
@@ -120,8 +121,8 @@ const Index = () => {
 								<div className="space-y-4">
 									{education.map((edu, index) => (
 										<div key={index}>
-											<h3 className="font-semibold text-gray-900">{edu.school}</h3>
-											<p className="text-gray-700 font-medium">{edu.degree}</p>
+											<h3 className="font-semibold text-gray-900">{edu.degree}</h3>
+											<p className="text-gray-700 font-medium">{edu.school}</p>
 											<p className="text-gray-500 text-sm">{edu.period}</p>
 										</div>
 									))}
