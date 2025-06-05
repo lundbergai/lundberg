@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ExternalLink } from 'lucide-react';
@@ -26,12 +25,12 @@ const Index = () => {
 				<div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 					{/* Left Column */}
 					<div className="lg:col-span-1 space-y-6">
-						{/* About Me */}
+						{/* Profile */}
 						<Card className="border border-gray-200">
 							<CardContent className="p-6">
 								<div className="flex items-center mb-4">
 									<span className="material-icons text-gray-700 mr-3">person</span>
-									<h2 className="text-xl font-semibold text-gray-700">About Me</h2>
+									<h2 className="text-xl font-semibold text-gray-700">Profile</h2>
 								</div>
 								<p className="text-gray-700 text-sm leading-relaxed">
 									{about}
@@ -39,18 +38,18 @@ const Index = () => {
 							</CardContent>
 						</Card>
 
-						{/* Skills */}
+						{/* Competences */}
 						<Card className="border border-gray-200">
 							<CardContent className="p-6">
 								<div className="flex items-center mb-4">
 									<span className="material-icons text-gray-700 mr-3">code</span>
-									<h2 className="text-xl font-semibold text-gray-700">Skills</h2>
+									<h2 className="text-xl font-semibold text-gray-700">Competences</h2>
 								</div>
 								<div className="space-y-4">
 									<div>
-										<h4 className="font-medium text-gray-900 mb-2">Language</h4>
+										<h4 className="font-medium text-gray-900 mb-2">.NET</h4>
 										<div className="flex flex-wrap gap-2">
-											{skills.languages.map((skill, index) => (
+											{skills.dotnet.map((skill, index) => (
 												<Badge key={index} variant="secondary" className="bg-gray-800 text-white text-xs">
 													{skill}
 												</Badge>
@@ -58,50 +57,50 @@ const Index = () => {
 										</div>
 									</div>
 									<div>
-										<h4 className="font-medium text-gray-900 mb-2">Framework</h4>
+										<h4 className="font-medium text-gray-900 mb-2">AI</h4>
 										<div className="flex flex-wrap gap-2">
-											{skills.frameworks.map((skill, index) => (
-												<Badge key={index} variant="secondary" className="bg-gray-600 text-white text-xs">
+											{skills.ai.map((skill, index) => (
+												<Badge key={index} variant="secondary" className="bg-blue-600 text-white text-xs">
 													{skill}
 												</Badge>
 											))}
 										</div>
 									</div>
 									<div>
-										<h4 className="font-medium text-gray-900 mb-2">Tool</h4>
+										<h4 className="font-medium text-gray-900 mb-2">Web</h4>
 										<div className="flex flex-wrap gap-2">
-											{skills.tools.map((skill, index) => (
-												<Badge key={index} variant="secondary" className="bg-gray-700 text-white text-xs">
+											{skills.web.map((skill, index) => (
+												<Badge key={index} variant="secondary" className="bg-green-600 text-white text-xs">
 													{skill}
 												</Badge>
 											))}
 										</div>
 									</div>
 									<div>
-										<h4 className="font-medium text-gray-900 mb-2">Database</h4>
+										<h4 className="font-medium text-gray-900 mb-2">Data</h4>
 										<div className="flex flex-wrap gap-2">
-											{skills.databases.map((skill, index) => (
-												<Badge key={index} variant="secondary" className="bg-gray-600 text-white text-xs">
+											{skills.data.map((skill, index) => (
+												<Badge key={index} variant="secondary" className="bg-purple-600 text-white text-xs">
 													{skill}
 												</Badge>
 											))}
 										</div>
 									</div>
 									<div>
-										<h4 className="font-medium text-gray-900 mb-2">Cloud</h4>
+										<h4 className="font-medium text-gray-900 mb-2">Infrastructure</h4>
 										<div className="flex flex-wrap gap-2">
-											{skills.cloud.map((skill, index) => (
-												<Badge key={index} variant="secondary" className="bg-gray-700 text-white text-xs">
+											{skills.infrastructure.map((skill, index) => (
+												<Badge key={index} variant="secondary" className="bg-orange-600 text-white text-xs">
 													{skill}
 												</Badge>
 											))}
 										</div>
 									</div>
 									<div>
-										<h4 className="font-medium text-gray-900 mb-2">Other</h4>
+										<h4 className="font-medium text-gray-900 mb-2">Testing</h4>
 										<div className="flex flex-wrap gap-2">
-											{skills.other.map((skill, index) => (
-												<Badge key={index} variant="secondary" className="bg-gray-600 text-white text-xs">
+											{skills.testing.map((skill, index) => (
+												<Badge key={index} variant="secondary" className="bg-red-600 text-white text-xs">
 													{skill}
 												</Badge>
 											))}
@@ -132,7 +131,7 @@ const Index = () => {
 						</Card>
 					</div>
 
-					{/* Right Column */}
+					{/* Right Column - Work Experience section remains the same */}
 					<div className="lg:col-span-2">
 						{/* Work Experience */}
 						<Card className="border border-gray-200">

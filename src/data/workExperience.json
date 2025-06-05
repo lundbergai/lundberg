@@ -1,44 +1,64 @@
 
 [
   {
-    "company": "TechCorp Inc.",
-    "role": "Senior Software Engineer",
-    "period": "Jan 2022 - Present",
-    "description": "Led the development of large-scale data-driven web applications using React, Node.js and PostgreSQL.",
+    "company": "Tromb",
+    "role": "Fullstack Developer, Trainee",
+    "period": "2025 - Present",
+    "description": "Developed a React-based PDF generator for dynamically creating and formatting consultant resumes, collaborating with a designer on strict formatting. Built a UI for data editing with caching. Integrated with an existing HR system using Entra ID (MSAL) authentication.",
     "achievements": [
-      "Integrated AI-powered recommendation engine, improving user engagement by 25%",
-      "Mentored junior developers and conducted code reviews to maintain high-quality standards",
-      "Collaborated with product managers and designers to define project scope and deliverables"
+      "Developed new .NET backend API endpoints and managed database operations (queries, migrations) in production",
+      "Utilized agile TDD and CI/CD pipelines in Azure with Docker",
+      "Integrated React-pdf for dynamic PDF generation with strict formatting requirements"
     ],
     "projects": [
       {
-        "id": 1,
-        "name": "AI Recommendation Engine",
-        "description": "Developed and integrated an AI-powered product recommendation system",
-        "icon": "smart_toy"
-      },
-      {
         "id": 2,
-        "name": "Customer Portal Revamp",
-        "description": "Complete overhaul of the customer-facing portal for improved UX and performance",
-        "icon": "web"
+        "name": "ConsultantResume",
+        "description": "React-based PDF generator for dynamically creating consultant resumes",
+        "icon": "description"
       }
     ]
   },
   {
-    "company": "Web Dynamics LLC",
-    "role": "Software Developer",
-    "period": "Jun 2019 - Dec 2021",
-    "description": "Developed and maintained responsive websites and web applications for small to medium-sized businesses.",
+    "company": "AlgoSkin",
+    "role": "Developer",
+    "period": "2022 - Present",
+    "description": "Designed, developed, and currently operating a profitable algorithmic arbitrage trading system with Node.js and TypeScript. Integration with external APIs, data scraping, local data storage, currency conversions and complex algorithmic price calculations.",
     "achievements": [
-      "Utilized JavaScript, HTML, CSS, and various frontend frameworks like Angular and Vue.js",
-      "Contributed to backend development using PHP and MySQL"
+      "Built profitable algorithmic arbitrage trading system with high uptime",
+      "Implemented extensive error handling to ensure system reliability",
+      "Operation and maintenance in secure Linux environment with virtualization and VPN tunnels"
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "name": "AlgoSkin",
+        "description": "Algorithmic arbitrage trading system with Node.js and TypeScript",
+        "icon": "trending_up"
+      }
+    ]
+  },
+  {
+    "company": "School Group Projects",
+    "role": "Developer",
+    "period": "2024 - 2025",
+    "description": "Developed various full-stack applications as part of educational curriculum, focusing on modern web technologies and agile development practices.",
+    "achievements": [
+      "Applied TDD and agile methodologies in team environments",
+      "Built comprehensive learning management system with user authentication",
+      "Developed optimization algorithms for real-world problem solving"
     ],
     "projects": [
       {
         "id": 3,
-        "name": "E-commerce Platform for SMBs",
-        "description": "Built a customizable e-commerce solution for small businesses",
+        "name": "LMS",
+        "description": "Learning Management System built as school group project",
+        "icon": "school"
+      },
+      {
+        "id": 4,
+        "name": "GroceryOptimizer",
+        "description": "Optimization system for grocery shopping built as school group project",
         "icon": "shopping_cart"
       }
     ]

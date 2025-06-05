@@ -1,29 +1,36 @@
 
 {
-  "name": "Alex Johnson",
-  "title": "Full Stack Developer & AI Enthusiast",
-  "email": "alex.johnson@email.com",
+  "name": "Viktor Lundberg",
+  "title": "Full Stack Developer",
+  "email": "viktor@lundberg.ai",
   "phone": "555-123-4567",
-  "linkedin": "linkedin.com/in/alexjohnsondev",
-  "github": "github.com/alexjohnsondev",
-  "website": "alexjohnson.dev",
-  "about": "Innovative Full Stack Developer with 5+ years of experience in building scalable web applications and a keen interest in leveraging AI to solve real-world problems. Proven ability to manage full project lifecycles, from conception to deployment. Eager to contribute technical expertise and creative solutions to a dynamic team.",
+  "linkedin": "linkedin.com/in/viktorlundberg",
+  "github": "github.com/viktorlundberg",
+  "website": "lundberg.ai",
+  "about": "Developer with a background in system development and dual degrees in .NET/React and Economics. Educated in modern AI development. Practical experience in agile test-driven development, CI/CD pipelines in Azure DevOps (including Docker containers), and projects with both .NET Web API/React and .NET Core MVC. Special expertise in algorithmic trading.",
   "education": {
-    "school": "State University",
-    "degree": "B.S. in Computer Science",
-    "period": "May 2019",
+    "school": "Lexicon IT Proffs & Luleå University of Technology",
+    "degree": "Fullstack Developer",
+    "period": "2024 - 2025",
     "details": [
-      "Minor in Mathematics",
-      "GPA: 3.8/4.0",
-      "Dean's List 2016-2018"
+      "C# .NET (Object Orientation, Error Handling)",
+      "Frontend (HTML, CSS, JavaScript, React)",
+      "Database (SQL, EF Core, Code-First, LINQ)",
+      "ASP.NET Core API (REST, Async, Auth, Swagger)",
+      "Agile Project Work (SCRUM, Git, UX, Figma)"
     ]
   },
   "skills": {
-    "languages": ["JavaScript", "TypeScript", "Python", "HTML5", "CSS3"],
-    "frameworks": ["React", "Next.js", "Node.js", "Vue.js", "Express"],
-    "tools": ["Git", "Docker"],
-    "databases": ["PostgreSQL", "MongoDB"],
-    "cloud": ["AWS"],
-    "other": ["REST APIs", "GraphQL", "CI/CD Pipelines"]
+    "dotnet": [".NET", "C#", "ASP.NET Web", "MVC", "REST API", "EF Core"],
+    "ai": ["OpenAI API", "Prompt Engineering", "Generative AI"],
+    "authentication": ["MSAL", "Entra ID", "JWT", "OAuth"],
+    "collaboration": ["Git", "DevOps", "Jira", "Miro"],
+    "data": ["SQL", "MSSQL", "SQLite", "LINQ", "JSON", "XML"],
+    "infrastructure": ["Azure DevOps", "CI/CD Pipelines", "Pulumi IaC", "Nginx"],
+    "lowlevel": ["C++", "Solidity", "gRPC", "Java"],
+    "testing": ["TDD", "Unit Testing", "Integration Testing"],
+    "tools": ["Visual Studio", "VS Code", "Rider", "Figma", "Postman", "Copilot"],
+    "virtualization": ["Docker", "Linux", "VMWare", "OpenVPN"],
+    "web": ["React", "TypeScript", "Vite", "Node.js", "HTML", "CSS"]
   }
 }
