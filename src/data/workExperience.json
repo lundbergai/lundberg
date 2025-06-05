@@ -1,73 +1,72 @@
-
 [
-  {
-    "company": "AlgoSkin",
-    "role": "Lead Developer",
-    "period": "2022 - Present",
-    "description": "Developed and maintained algorithmic trading systems with focus on arbitrage opportunities and real-time market analysis.",
-    "achievements": [
-      "Built profitable trading system with consistent returns",
-      "Achieved 99%+ uptime through robust error handling",
-      "Successfully integrated multiple external trading APIs",
-      "Implemented secure infrastructure with virtualization and VPN"
-    ],
-    "projects": [
-      {
-        "name": "AlgoSkin",
-        "slug": "algoskin",
-        "description": "Algorithmic arbitrage trading system built with Node.js and TypeScript",
-        "icon": "trending_up",
-        "thumbnail": "/algoskin-thumbnail.png"
-      }
-    ]
-  },
-  {
-    "company": "Tromb",
-    "role": "Fullstack Developer",
-    "period": "2024 - 2024",
-    "description": "Developed React-based applications with focus on PDF generation and HR system integration using modern web technologies.",
-    "achievements": [
-      "Successfully delivered PDF generator meeting all design specifications",
-      "Implemented secure authentication integration with existing HR system",
-      "Built efficient UI with caching for improved user experience",
-      "Deployed using CI/CD pipelines with Docker containers"
-    ],
-    "projects": [
-      {
-        "name": "ConsultantResume",
-        "slug": "consultantresume",
-        "description": "React-based PDF generator for dynamically creating consultant resumes",
-        "icon": "description",
-        "thumbnail": "/consultantresume-thumbnail.png"
-      }
-    ]
-  },
-  {
-    "company": "School Group Project",
-    "role": "Full Stack Developer",
-    "period": "2024",
-    "description": "Collaborated on comprehensive learning management system as part of educational curriculum, focusing on user authentication and course management.",
-    "achievements": [
-      "Delivered fully functional LMS with all required features",
-      "Implemented secure authentication and authorization system",
-      "Built responsive UI supporting multiple user roles",
-      "Achieved 90%+ test coverage using TDD methodology"
-    ],
-    "projects": [
-      {
-        "name": "LMS",
-        "slug": "lms",
-        "description": "Comprehensive Learning Management System with user authentication",
-        "icon": "school",
-        "thumbnail": "/lms-thumbnail.png"
-      },
-      {
-        "name": "GroceryOptimizer",
-        "slug": "groceryoptimizer",
-        "description": "Optimization system for grocery shopping with algorithm-based route planning",
-        "icon": "local_grocery_store",
-        "thumbnail": "/groceryoptimizer-thumbnail.png"
-      }
-    ]
-  }
+	{
+		"company": "Tromb",
+		"role": "Fullstack Developer",
+		"period": "2025 - Present",
+		"description": "Developed React-based applications with focus on PDF generation and HR system integration using modern web technologies.",
+		"achievements": [
+			"Successfully delivered PDF generator meeting all design specifications",
+			"Implemented secure authentication integration with existing HR system",
+			"Built efficient UI with caching for improved user experience",
+			"Deployed using CI/CD pipelines with Docker containers"
+		],
+		"projects": [
+			{
+				"name": "ConsultantResume",
+				"slug": "consultantresume",
+				"description": "React-based PDF generator for dynamically creating consultant resumes",
+				"icon": "description",
+				"thumbnail": "/consultantresume-thumbnail.png"
+			}
+		]
+	},
+	{
+		"company": "AlgoSkin",
+		"role": "Lead Developer",
+		"period": "2022 - Present",
+		"description": "Developed and maintained algorithmic trading systems with focus on arbitrage opportunities and real-time market analysis.",
+		"achievements": [
+			"Built profitable trading system with consistent returns",
+			"Achieved 99%+ uptime through robust error handling",
+			"Successfully integrated multiple external trading APIs",
+			"Implemented secure infrastructure with virtualization and VPN"
+		],
+		"projects": [
+			{
+				"name": "AlgoSkin",
+				"slug": "algoskin",
+				"description": "Algorithmic arbitrage trading system built with Node.js and TypeScript",
+				"icon": "trending_up",
+				"thumbnail": "/algoskin-thumbnail.png"
+			}
+		]
+	},
+	{
+		"company": "Lexicon & LTU Group Projects",
+		"role": "Full Stack Developer",
+		"period": "2024 - 2025",
+		"description": "Collaborated on comprehensive learning management system as part of educational curriculum, focusing on user authentication and course management.",
+		"achievements": [
+			"Delivered fully functional LMS with all required features",
+			"Implemented secure authentication and authorization system",
+			"Built responsive UI supporting multiple user roles",
+			"Achieved 90%+ test coverage using TDD methodology"
+		],
+		"projects": [
+			{
+				"name": "LMS",
+				"slug": "lms",
+				"description": "Comprehensive Learning Management System with user authentication",
+				"icon": "school",
+				"thumbnail": "/lms-thumbnail.png"
+			},
+			{
+				"name": "GroceryOptimizer",
+				"slug": "groceryoptimizer",
+				"description": "Optimization system for grocery shopping with algorithm-based route planning",
+				"icon": "local_grocery_store",
+				"thumbnail": "/groceryoptimizer-thumbnail.png"
+			}
+		]
+	}
 ]
