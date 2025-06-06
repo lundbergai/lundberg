@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Users, Calendar, User } from 'lucide-react';
+import { ArrowLeft, Users, Calendar, User, Building2 } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -45,7 +44,7 @@ const ConsultantresumeDetail = () => {
 					<h1 className="text-3xl font-bold text-gray-900 mb-4">{project.name}</h1>
 					<p className="text-lg text-gray-600 mb-6">{project.description}</p>
 
-					<div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+					<div className="grid grid-cols-3 md:grid-cols-4 gap-4 mb-6">
 						<div className="flex items-center text-sm text-gray-600">
 							<User className="w-4 h-4 mr-2" />
 							<span>{project.role}</span>
@@ -55,13 +54,23 @@ const ConsultantresumeDetail = () => {
 							<span>{project.teamSize}</span>
 						</div>
 						<div className="flex items-center text-sm text-gray-600">
-							<Calendar className="w-4 h-4 mr-2" />
-							<span>{project.duration}</span>
-						</div>
-						<div className="text-sm text-gray-600">
+							<Building2 className="w-4 h-4 mr-2" />
 							<span className="font-medium">{project.company}</span>
 						</div>
 					</div>
+
+					{/* Hero Image */}
+					<div className="mb-8">
+						<div className="aspect-video bg-gray-100 rounded-lg overflow-hidden">
+							<img
+								src={project.heroImage}
+								alt={project.name}
+								className="w-full h-full object-cover"
+							/>
+						</div>
+					</div>
+
+
 
 					<div>
 						<h3 className="font-medium text-gray-900 mb-2">Technologies Used</h3>
@@ -75,16 +84,6 @@ const ConsultantresumeDetail = () => {
 					</div>
 				</div>
 
-				{/* Hero Image */}
-				<div className="mb-8">
-					<div className="aspect-video bg-gray-100 rounded-lg overflow-hidden">
-						<img
-							src={project.heroImage}
-							alt={project.name}
-							className="w-full h-full object-cover"
-						/>
-					</div>
-				</div>
 
 				{/* Project Details */}
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
