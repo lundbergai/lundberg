@@ -7,6 +7,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Projects from "./pages/Projects";
 import ProjectDetail from "./pages/ProjectDetail";
+import AlgoskinDetail from "./pages/AlgoskinDetail";
+import ConsultantresumeDetail from "./pages/ConsultantresumeDetail";
+import LmsDetail from "./pages/LmsDetail";
+import GroceryoptimizerDetail from "./pages/GroceryoptimizerDetail";
 import AbragameDetail from "./pages/AbragameDetail";
 import TopdownshootingswordDetail from "./pages/TopdownshootingswordDetail";
 import LanguagepatternDetail from "./pages/LanguagepatternDetail";
@@ -24,6 +28,10 @@ const App = () => (
 					<Route path="/" element={<Index />} />
 					<Route path="/projects" element={<Projects />} />
 					<Route path="/projects/:id" element={<ProjectDetail />} />
+					<Route path="/projects/algoskin" element={<AlgoskinDetail />} />
+					<Route path="/projects/consultantresume" element={<ConsultantresumeDetail />} />
+					<Route path="/projects/lms" element={<LmsDetail />} />
+					<Route path="/projects/groceryoptimizer" element={<GroceryoptimizerDetail />} />
 					<Route path="/projects/abragame" element={<AbragameDetail />} />
 					<Route path="/projects/topdownshootingsword" element={<TopdownshootingswordDetail />} />
 					<Route path="/projects/languagepattern" element={<LanguagepatternDetail />} />
