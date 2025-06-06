@@ -97,7 +97,7 @@
 		"description": "Developed game projects in Unity with focus on agile teamwork and performance optimization.",
 		"achievements": [
 			"Collaborated in cross-functional team with designers and developers",
-			"Created multiple functional game prototypes",
+			"Game development with real-time blockchain connections, smart contract deployments and API integrations",
 			"Applied agile/sprint methodology with Git version control"
 		],
 		"projects": [
@@ -110,7 +110,7 @@
 			{
 				"name": "Abracadabra Money",
 				"slug": "abragame",
-				"description": "Interactive game project with custom mechanics and art style",
+				"description": "Interactive game with real-time blockchain connections",
 				"thumbnail": "/abragame-thumbnail.png"
 			}
 		]

@@ -313,7 +313,7 @@
 		"id": 8,
 		"slug": "abragame",
 		"name": "Abracadabra Money",
-		"description": "Interactive game project developed as part of FutureGames curriculum, featuring custom game mechanics and unique art style with performance optimization",
+		"description": "Interactive game project developed as part of FutureGames semester, featuring integrated APIs and real-time blockchain connection.",
 		"heroImage": "/placeholder.svg",
 		"images": [
 			"/placeholder.svg",
