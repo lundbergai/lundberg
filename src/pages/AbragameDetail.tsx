@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Users, Calendar, User } from 'lucide-react';
+import { ArrowLeft, Users, User, Building2 } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -45,62 +44,36 @@ const AbragameDetail = () => {
 					<h1 className="text-3xl font-bold text-gray-900 mb-4">{project.name}</h1>
 					<p className="text-lg text-gray-600 mb-6">{project.description}</p>
 
-					<div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+					<div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
 						<div className="flex items-center text-sm text-gray-600">
 							<User className="w-4 h-4 mr-2" />
 							<span>{project.role}</span>
 						</div>
 						<div className="flex items-center text-sm text-gray-600">
+							<Building2 className="w-4 h-4 mr-2" />
+							<span className="font-medium">{project.company}</span>
+						</div>
+						<div className="flex items-center text-sm text-gray-600">
 							<Users className="w-4 h-4 mr-2" />
 							<span>{project.teamSize}</span>
 						</div>
-						<div className="flex items-center text-sm text-gray-600">
-							<Calendar className="w-4 h-4 mr-2" />
-							<span>{project.duration}</span>
-						</div>
-						<div className="text-sm text-gray-600">
-							<span className="font-medium">{project.company}</span>
-						</div>
 					</div>
 
-					<div>
-						<h3 className="font-medium text-gray-900 mb-2">Technologies Used</h3>
-						<div className="flex flex-wrap gap-2">
-							{project.technologies.map((tech, index) => (
-								<Badge key={index} variant="secondary">
-									{tech}
-								</Badge>
-							))}
+					{/* Hero Image */}
+					<div className="mb-8">
+						<div className="aspect-video bg-gray-100 rounded-lg overflow-hidden">
+							<img
+								src={project.heroImage}
+								alt={project.name}
+								className="w-full h-full object-cover"
+							/>
 						</div>
-					</div>
-				</div>
-
-				{/* Hero Image */}
-				<div className="mb-8">
-					<div className="aspect-video bg-gray-100 rounded-lg overflow-hidden">
-						<img
-							src={project.heroImage}
-							alt={project.name}
-							className="w-full h-full object-cover"
-						/>
 					</div>
 				</div>
 
 				{/* Project Details */}
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-					<Card>
-						<CardContent className="p-6">
-							<h3 className="text-lg font-semibold text-gray-900 mb-4">Key Challenges</h3>
-							<ul className="space-y-2">
-								{project.challenges.map((challenge, index) => (
-									<li key={index} className="text-sm text-gray-700">
-										• {challenge}
-									</li>
-								))}
-							</ul>
-						</CardContent>
-					</Card>
-
+					{/* Achievements Card */}
 					<Card>
 						<CardContent className="p-6">
 							<h3 className="text-lg font-semibold text-gray-900 mb-4">Achievements</h3>
@@ -113,21 +86,21 @@ const AbragameDetail = () => {
 							</ul>
 						</CardContent>
 					</Card>
-				</div>
 
-				{/* My Contributions */}
-				<Card className="mb-8">
-					<CardContent className="p-6">
-						<h3 className="text-lg font-semibold text-gray-900 mb-4">My Contributions</h3>
-						<ul className="space-y-2">
-							{project.myContributions.map((contribution, index) => (
-								<li key={index} className="text-sm text-gray-700">
-									• {contribution}
-								</li>
-							))}
-						</ul>
-					</CardContent>
-				</Card>
+					{/* Technologies Card */}
+					<Card>
+						<CardContent className="p-6">
+							<h3 className="text-lg font-semibold text-gray-900 mb-4">Technologies Used</h3>
+							<div className="flex flex-wrap gap-2">
+								{project.technologies.map((tech, index) => (
+									<Badge key={index} variant="secondary">
+										{tech}
+									</Badge>
+								))}
+							</div>
+						</CardContent>
+					</Card>
+				</div>
 
 				{/* Additional Screenshots */}
 				<div className="mb-8">

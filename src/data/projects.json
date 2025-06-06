@@ -58,8 +58,8 @@
 		],
 		"company": "AlgoSkin",
 		"role": "Developer",
-		"teamSize": "1 developer",
-		"duration": "2+ years (ongoing)",
+		"teamSize": "Solo project",
+		"duration": "3+ years (ongoing)",
 		"challenges": [
 			"Implementing real-time algorithmic price calculations for arbitrage opportunities",
 			"Ensuring high system uptime with extensive error handling",
@@ -104,24 +104,11 @@
 		],
 		"company": "Lexicon & LTU",
 		"role": "Backend Developer",
-		"teamSize": "3 developers",
-		"challenges": [
-			"Building API hub connecting frontend via REST and backend services via gRPC",
-			"Implementing efficient route optimization algorithms with mapping",
-			"Balancing multiple optimization criteria (cost, time, distance)",
-			"Processing and organizing large datasets of store and product information"
-		],
+		"teamSize": "5 developers",
 		"achievements": [
-			"Built smart optimization system with route planning and mapping",
-			"Successfully implemented API hub handling REST and gRPC protocols",
-			"Developed working algorithm reducing shopping time by 30%",
-			"Created efficient data processing and storage system"
-		],
-		"myContributions": [
 			"Built API hub connecting frontend (REST) and backend services (gRPC)",
-			"Designed and implemented core optimization algorithms with mapping",
-			"Developed database layer for storing and processing optimization data",
-			"Created graph-based route planning system"
+			"Developed route optimization algorithm reducing shopping time",
+			"Created full-stack solution with React frontend and database integration"
 		]
 	},
 	{
@@ -149,23 +136,10 @@
 		"company": "Lexicon & LTU",
 		"role": "Full Stack Developer",
 		"teamSize": "4 developers",
-		"challenges": [
-			"Implementing comprehensive user role management system",
-			"Building interactive learning modules with progress tracking",
-			"Ensuring scalable database design for course and user data",
-			"Coordinating development work across team members"
-		],
 		"achievements": [
-			"Delivered fully functional LMS with all required features",
-			"Implemented secure authentication and authorization system",
-			"Built responsive UI supporting multiple user roles",
-			"Applied SCRUM methodology throughout development"
-		],
-		"myContributions": [
-			"Led backend development with .NET and Entity Framework",
-			"Implemented user authentication and role-based access control",
-			"Designed and developed course management API endpoints",
-			"Set up testing framework and wrote comprehensive unit tests"
+			"Built robust backend architecture with middleware, repositories, and clean separation of concerns",
+			"Implemented secure authentication system with role-based access control across frontend and backend",
+			"Delivered fully functional LMS with clean UI design and seamless user experience"
 		]
 	},
 	{
@@ -190,24 +164,11 @@
 		],
 		"company": "University Project",
 		"role": "Developer",
-		"teamSize": "2 developers",
-		"challenges": [
-			"Implementing multiple design patterns in a cohesive architecture",
-			"Creating flexible game engine that supports various card game rules",
-			"Ensuring comprehensive test coverage for all game scenarios",
-			"Designing clean and maintainable object-oriented code structure"
-		],
+		"teamSize": "Solo project",
 		"achievements": [
 			"Successfully implemented Factory, Strategy, and Dependency Injection patterns",
-			"Achieved 95%+ test coverage with comprehensive unit and integration tests",
-			"Created extensible game framework that supports multiple game variants",
-			"Delivered clean, well-documented codebase following SOLID principles"
-		],
-		"myContributions": [
-			"Designed and implemented the core game engine architecture",
-			"Applied multiple design patterns for flexible and maintainable code",
-			"Developed comprehensive testing suite with JUnit and Mockito",
-			"Created game logic and rule engine for card game mechanics"
+			"Delivered clean, well-documented codebase following SOLID principles",
+			"Achieved high test coverage with comprehensive unit and integration tests"
 		]
 	},
 	{
@@ -230,24 +191,10 @@
 		],
 		"company": "University Project",
 		"role": "Developer",
-		"teamSize": "1 developer",
-		"challenges": [
-			"Implementing efficient text analysis algorithms for large datasets",
-			"Creating accurate pattern detection systems for multiple languages",
-			"Developing statistical models for frequency analysis",
-			"Optimizing performance for real-time pattern detection"
-		],
+		"teamSize": "Solo project",
 		"achievements": [
-			"Successfully detected language patterns with 95% accuracy",
-			"Processed large text datasets efficiently",
-			"Created meaningful statistical analysis of language patterns",
-			"Implemented optimized algorithms for pattern prediction"
-		],
-		"myContributions": [
-			"Designed and implemented core pattern detection algorithms",
-			"Developed data processing pipeline for text analysis",
-			"Created statistical models for feature extraction",
-			"Built efficient data structures for pattern representation"
+			"Successfully implemented efficient text analysis algorithms for large datasets",
+			"Created meaningful statistical analysis of language patterns"
 		]
 	},
 	{
@@ -274,23 +221,10 @@
 		"company": "FutureGames",
 		"role": "Game Programmer",
 		"teamSize": "6 team members (3 developers, 2 designers, 1 story designer)",
-		"challenges": [
-			"Creating seamless switching between ranged and melee combat",
-			"Collaborating in cross-functional team with designers and story writer",
-			"Implementing enemy AI with multiple behavior patterns",
-			"Applying agile/sprint methodology with Git version control"
-		],
 		"achievements": [
-			"Successfully collaborated in 6-person cross-functional team",
-			"Created functional dual combat system with smooth transitions",
-			"Implemented AI enemies with varied attack patterns",
-			"Applied agile methodology with sprint-based development"
-		],
-		"myContributions": [
-			"Designed and implemented the dual weapon combat system",
-			"Developed enemy AI behavior and pathfinding",
-			"Created player progression and upgrade systems",
-			"Collaborated with designers on game mechanics implementation"
+			"Successfully collaborated in 6-person cross-functional team using agile methodology",
+			"Designed and implemented dual combat system with seamless weapon switching mechanics",
+			"Developed intelligent enemy AI with pathfinding and varied behavioral patterns"
 		]
 	},
 	{
@@ -315,24 +249,11 @@
 		],
 		"company": "FutureGames",
 		"role": "Game Programmer",
-		"teamSize": "5 team members",
-		"challenges": [
-			"Implementing custom game mechanics for innovative gameplay",
-			"Optimizing performance for smooth gameplay experience",
-			"Creating responsive controls and feedback systems",
-			"Integrating art assets with programming systems"
-		],
+		"teamSize": "Solo project",
 		"achievements": [
-			"Delivered fully functional game prototype within deadline",
-			"Successfully implemented all required gameplay features",
-			"Created smooth, responsive player controls with optimization",
-			"Developed efficient game systems that work well together"
-		],
-		"myContributions": [
-			"Designed and implemented core gameplay mechanics",
-			"Developed player control systems and feedback loops",
-			"Applied performance optimization techniques",
-			"Implemented physics-based interactions and collisions"
+			"Integrated Ethereum blockchain with deployed Solidity smart contracts for real-time game interactions",
+			"Built live API connections fetching cryptocurrency prices for realistic in-game token values",
+			"Created polished game experience with professional design assets and blockchain functionality"
 		]
 	}
 ]
