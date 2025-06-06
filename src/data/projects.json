@@ -1,251 +1,355 @@
-
 [
-  {
-    "id": 1,
-    "slug": "algoskin",
-    "name": "AlgoSkin",
-    "description": "Algorithmic arbitrage trading system built with Node.js and TypeScript, featuring real-time API integration, data scraping, and complex price calculations for profitable trading operations",
-    "heroImage": "/placeholder.svg",
-    "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
-    "technologies": ["Node.js", "TypeScript", "HTTP APIs", "JSON", "Axios", "Linux", "VMware", "OpenVPN", "Nginx"],
-    "company": "AlgoSkin",
-    "role": "Developer",
-    "teamSize": "1 developer",
-    "duration": "2+ years (ongoing)",
-    "challenges": [
-      "Implementing real-time algorithmic price calculations for arbitrage opportunities",
-      "Ensuring high system uptime with extensive error handling",
-      "Managing secure operations in Linux environment with VPN tunnels",
-      "Integrating multiple external APIs for data collection and trading"
-    ],
-    "achievements": [
-      "Built and deployed profitable trading system with consistent returns",
-      "Achieved 99%+ uptime through robust error handling",
-      "Successfully integrated multiple external trading APIs",
-      "Implemented secure infrastructure with virtualization and VPN"
-    ],
-    "myContributions": [
-      "Designed and implemented the entire algorithmic trading architecture",
-      "Built real-time data scraping and processing systems",
-      "Developed complex price calculation algorithms for arbitrage detection",
-      "Set up and maintained secure Linux-based production environment"
-    ]
-  },
-  {
-    "id": 2,
-    "slug": "consultantresume",
-    "name": "ConsultantResume",
-    "description": "React-based PDF generator for dynamically creating and formatting consultant resumes with strict design requirements, integrated with HR systems using Entra ID authentication",
-    "heroImage": "/placeholder.svg",
-    "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
-    "technologies": ["React", "React-pdf", "TypeScript", "Vite", ".NET", "ASP.NET Core", "Entity Framework", "MSAL", "Azure DevOps", "Docker"],
-    "company": "Tromb",
-    "role": "Fullstack Developer",
-    "teamSize": "2 developers, 1 designer",
-    "duration": "6 months",
-    "challenges": [
-      "Implementing dynamic PDF generation with strict formatting requirements",
-      "Integrating with existing HR system using Entra ID authentication",
-      "Managing database operations and migrations in production environment",
-      "Collaborating with designer on pixel-perfect PDF formatting"
-    ],
-    "achievements": [
-      "Successfully delivered PDF generator meeting all design specifications",
-      "Implemented secure authentication integration with existing HR system",
-      "Built efficient UI with caching for improved user experience",
-      "Deployed using CI/CD pipelines with Docker containers"
-    ],
-    "myContributions": [
-      "Developed React frontend with PDF generation capabilities",
-      "Built new .NET backend API endpoints for data management",
-      "Implemented MSAL authentication integration with Entra ID",
-      "Set up automated testing and deployment pipelines"
-    ]
-  },
-  {
-    "id": 3,
-    "slug": "lms",
-    "name": "LMS",
-    "description": "Comprehensive Learning Management System developed as a school group project, featuring user authentication, course management, and interactive learning modules",
-    "heroImage": "/placeholder.svg",
-    "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
-    "technologies": ["React", "TypeScript", ".NET", "Entity Framework", "SQL Server", "JWT", "TDD", "xUnit", "Git"],
-    "company": "School Group Project",
-    "role": "Full Stack Developer",
-    "teamSize": "4 developers",
-    "duration": "3 months",
-    "challenges": [
-      "Implementing comprehensive user role management system",
-      "Building interactive learning modules with progress tracking",
-      "Ensuring scalable database design for course and user data",
-      "Coordinating development work across team members"
-    ],
-    "achievements": [
-      "Delivered fully functional LMS with all required features",
-      "Implemented secure authentication and authorization system",
-      "Built responsive UI supporting multiple user roles",
-      "Achieved 90%+ test coverage using TDD methodology"
-    ],
-    "myContributions": [
-      "Led backend development with .NET and Entity Framework",
-      "Implemented user authentication and role-based access control",
-      "Designed and developed course management API endpoints",
-      "Set up testing framework and wrote comprehensive unit tests"
-    ]
-  },
-  {
-    "id": 4,
-    "slug": "groceryoptimizer",
-    "name": "GroceryOptimizer",
-    "description": "Optimization system for grocery shopping developed as a school group project, featuring algorithm-based route planning and budget optimization for efficient shopping",
-    "heroImage": "/placeholder.svg",
-    "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
-    "technologies": ["React", "TypeScript", "C#", ".NET", "SQL", "Algorithms", "Graph Theory", "REST API", "TDD"],
-    "company": "School Group Project",
-    "role": "Algorithm Developer",
-    "teamSize": "3 developers",
-    "duration": "2 months",
-    "challenges": [
-      "Implementing efficient route optimization algorithms",
-      "Balancing multiple optimization criteria (cost, time, distance)",
-      "Processing and organizing large datasets of store and product information",
-      "Creating intuitive user interface for complex optimization results"
-    ],
-    "achievements": [
-      "Developed working optimization algorithm reducing shopping time by 30%",
-      "Successfully implemented multi-criteria optimization system",
-      "Built user-friendly interface for inputting preferences and viewing results",
-      "Achieved optimal performance with large datasets"
-    ],
-    "myContributions": [
-      "Designed and implemented core optimization algorithms",
-      "Built graph-based route planning system",
-      "Developed backend API for processing optimization requests",
-      "Created data structures for efficient store and product management"
-    ]
-  },
-  {
-    "id": 5,
-    "slug": "abragame",
-    "name": "AbragGame",
-    "description": "Interactive game project developed as part of FutureGames curriculum, featuring custom game mechanics and unique art style",
-    "heroImage": "/placeholder.svg",
-    "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
-    "technologies": ["Unity", "C#", "Game Design", "3D Modeling", "Animation", "Physics", "AI"],
-    "company": "FutureGames",
-    "role": "Game Programmer",
-    "teamSize": "5 team members",
-    "duration": "3 months",
-    "challenges": [
-      "Implementing custom game mechanics for innovative gameplay",
-      "Optimizing performance for smooth gameplay experience",
-      "Creating responsive controls and feedback systems",
-      "Integrating art assets with programming systems"
-    ],
-    "achievements": [
-      "Delivered fully functional game prototype within deadline",
-      "Successfully implemented all required gameplay features",
-      "Created smooth, responsive player controls",
-      "Developed efficient game systems that work well together"
-    ],
-    "myContributions": [
-      "Designed and implemented core gameplay mechanics",
-      "Developed player control systems and feedback loops",
-      "Created AI systems for non-player characters",
-      "Implemented physics-based interactions and collisions"
-    ]
-  },
-  {
-    "id": 6,
-    "slug": "topdownshootingsword",
-    "name": "TopDownShootingSword",
-    "description": "Top-down action game with dual combat mechanics featuring both ranged and melee combat systems",
-    "heroImage": "/placeholder.svg",
-    "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
-    "technologies": ["Unity", "C#", "Game Design", "2D Animation", "Pathfinding", "Combat Systems"],
-    "company": "FutureGames",
-    "role": "Game Programmer",
-    "teamSize": "4 team members",
-    "duration": "2 months",
-    "challenges": [
-      "Creating seamless switching between ranged and melee combat",
-      "Implementing enemy AI with multiple behavior patterns",
-      "Developing procedural level generation systems",
-      "Balancing difficulty and player progression"
-    ],
-    "achievements": [
-      "Created functional dual combat system with smooth transitions",
-      "Implemented AI enemies with varied attack patterns",
-      "Developed satisfying feedback systems for player actions",
-      "Built functional game loop with progression elements"
-    ],
-    "myContributions": [
-      "Designed and implemented the dual weapon combat system",
-      "Developed enemy AI behavior and pathfinding",
-      "Created player progression and upgrade systems",
-      "Implemented core game loop and level progression"
-    ]
-  },
-  {
-    "id": 7,
-    "slug": "languagepattern",
-    "name": "LanguagePatternFrequencyDetection",
-    "description": "System for detecting and analyzing frequency patterns in language texts, featuring statistical analysis and pattern recognition",
-    "heroImage": "/placeholder.svg",
-    "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
-    "technologies": ["Python", "Natural Language Processing", "Machine Learning", "Statistics", "Data Visualization"],
-    "company": "University Project",
-    "role": "Developer",
-    "teamSize": "2 developers",
-    "duration": "4 months",
-    "challenges": [
-      "Implementing efficient text analysis algorithms for large datasets",
-      "Creating accurate pattern detection systems for multiple languages",
-      "Developing statistical models for frequency analysis",
-      "Building intuitive visualizations for complex language patterns"
-    ],
-    "achievements": [
-      "Successfully detected language patterns with 95% accuracy",
-      "Processed large text datasets efficiently",
-      "Created meaningful visualizations of language patterns",
-      "Implemented machine learning model for pattern prediction"
-    ],
-    "myContributions": [
-      "Designed and implemented core pattern detection algorithms",
-      "Developed data processing pipeline for text analysis",
-      "Created statistical models for feature extraction",
-      "Built visualization components for pattern representation"
-    ]
-  },
-  {
-    "id": 8,
-    "slug": "apples2apples",
-    "name": "Apples2Apples",
-    "description": "Java card game implementation showcasing design patterns and comprehensive testing methodologies",
-    "heroImage": "/placeholder.svg",
-    "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
-    "technologies": ["Java", "JUnit", "Mockito", "Design Patterns", "Factory Pattern", "Strategy Pattern", "Dependency Injection"],
-    "company": "University Project",
-    "role": "Developer",
-    "teamSize": "2 developers",
-    "duration": "3 months",
-    "challenges": [
-      "Implementing multiple design patterns in a cohesive architecture",
-      "Creating flexible game engine that supports various card game rules",
-      "Ensuring comprehensive test coverage for all game scenarios",
-      "Designing clean and maintainable object-oriented code structure"
-    ],
-    "achievements": [
-      "Successfully implemented Factory, Strategy, and Dependency Injection patterns",
-      "Achieved 95%+ test coverage with comprehensive unit and integration tests",
-      "Created extensible game framework that supports multiple game variants",
-      "Delivered clean, well-documented codebase following SOLID principles"
-    ],
-    "myContributions": [
-      "Designed and implemented the core game engine architecture",
-      "Applied multiple design patterns for flexible and maintainable code",
-      "Developed comprehensive testing suite with JUnit and Mockito",
-      "Created game logic and rule engine for card game mechanics"
-    ]
-  }
+	{
+		"id": 1,
+		"slug": "consultantresume",
+		"name": "Consultant Resume",
+		"description": "Production React-based PDF generator for creating dynamic consultant resumes with strict formatting requirements, integrated with HR systems using Entra ID authentication",
+		"heroImage": "/placeholder.svg",
+		"images": [
+			"/placeholder.svg",
+			"/placeholder.svg",
+			"/placeholder.svg"
+		],
+		"technologies": [
+			"React",
+			"React-pdf",
+			"TypeScript",
+			"Vite",
+			".NET",
+			"ASP.NET Core",
+			"Entity Framework",
+			"MSAL",
+			"Azure DevOps",
+			"Docker"
+		],
+		"company": "Tromb",
+		"role": "Fullstack Developer",
+		"teamSize": "2 developers, 1 designer",
+		"duration": "6 months",
+		"challenges": [
+			"Implementing dynamic PDF generation with strict formatting requirements",
+			"Integrating with existing HR system using Entra ID authentication",
+			"Managing database operations and migrations in production environment",
+			"Collaborating with designer on pixel-perfect PDF formatting"
+		],
+		"achievements": [
+			"Successfully delivered PDF generator meeting all design specifications",
+			"Implemented secure authentication integration with existing HR system",
+			"Built efficient UI with caching for improved user experience",
+			"Deployed using CI/CD pipelines with Docker containers"
+		],
+		"myContributions": [
+			"Developed React frontend with PDF generation capabilities",
+			"Built new .NET backend API endpoints for data management",
+			"Implemented MSAL authentication integration with Entra ID",
+			"Set up automated testing and deployment pipelines"
+		]
+	},
+	{
+		"id": 2,
+		"slug": "algoskin",
+		"name": "AlgoSkin",
+		"description": "Profitable algorithmic arbitrage trading system built with Node.js and TypeScript, featuring real-time API integration, data scraping, and complex price calculations for automated trading operations",
+		"heroImage": "/placeholder.svg",
+		"images": [
+			"/placeholder.svg",
+			"/placeholder.svg",
+			"/placeholder.svg"
+		],
+		"technologies": [
+			"Node.js",
+			"TypeScript",
+			"HTTP APIs",
+			"JSON",
+			"Axios",
+			"Linux",
+			"VMware",
+			"OpenVPN",
+			"Nginx"
+		],
+		"company": "AlgoSkin",
+		"role": "Developer",
+		"teamSize": "1 developer",
+		"duration": "2+ years (ongoing)",
+		"challenges": [
+			"Implementing real-time algorithmic price calculations for arbitrage opportunities",
+			"Ensuring high system uptime with extensive error handling",
+			"Managing secure operations in Linux environment with VPN tunnels",
+			"Integrating multiple external APIs for data collection and trading"
+		],
+		"achievements": [
+			"Built and deployed profitable trading system with consistent returns",
+			"Achieved 99%+ uptime through robust error handling",
+			"Successfully integrated multiple external trading APIs",
+			"Implemented secure infrastructure with virtualization and VPN"
+		],
+		"myContributions": [
+			"Designed and implemented the entire algorithmic trading architecture",
+			"Built real-time data scraping and processing systems",
+			"Developed complex price calculation algorithms for arbitrage detection",
+			"Set up and maintained secure Linux-based production environment"
+		]
+	},
+	{
+		"id": 3,
+		"slug": "groceryoptimizer",
+		"name": "Grocery Optimizer",
+		"description": "Smart grocery shopping optimization system with route planning algorithms and mapping functionality, developed as a school group project featuring API hub connecting frontend and backend services via REST and gRPC",
+		"heroImage": "/placeholder.svg",
+		"images": [
+			"/placeholder.svg",
+			"/placeholder.svg",
+			"/placeholder.svg"
+		],
+		"technologies": [
+			"React",
+			"TypeScript",
+			"C#",
+			".NET",
+			"REST API",
+			"gRPC",
+			"SQL",
+			"Algorithms",
+			"Graph Theory",
+			"TDD"
+		],
+		"company": "Lexicon & LTU",
+		"role": "Backend Developer",
+		"teamSize": "3 developers",
+		"duration": "2 months",
+		"challenges": [
+			"Building API hub connecting frontend via REST and backend services via gRPC",
+			"Implementing efficient route optimization algorithms with mapping",
+			"Balancing multiple optimization criteria (cost, time, distance)",
+			"Processing and organizing large datasets of store and product information"
+		],
+		"achievements": [
+			"Built smart optimization system with route planning and mapping",
+			"Successfully implemented API hub handling REST and gRPC protocols",
+			"Developed working algorithm reducing shopping time by 30%",
+			"Created efficient data processing and storage system"
+		],
+		"myContributions": [
+			"Built API hub connecting frontend (REST) and backend services (gRPC)",
+			"Designed and implemented core optimization algorithms with mapping",
+			"Developed database layer for storing and processing optimization data",
+			"Created graph-based route planning system"
+		]
+	},
+	{
+		"id": 4,
+		"slug": "lms",
+		"name": "LMS",
+		"description": "Comprehensive Learning Management System developed as a school group project, featuring user authentication, role-based access control, and interactive learning modules",
+		"heroImage": "/placeholder.svg",
+		"images": [
+			"/placeholder.svg",
+			"/placeholder.svg",
+			"/placeholder.svg"
+		],
+		"technologies": [
+			"React",
+			"TypeScript",
+			".NET",
+			"Entity Framework",
+			"SQL Server",
+			"JWT",
+			"TDD",
+			"xUnit",
+			"Git"
+		],
+		"company": "Lexicon & LTU",
+		"role": "Full Stack Developer",
+		"teamSize": "4 developers",
+		"duration": "3 months",
+		"challenges": [
+			"Implementing comprehensive user role management system",
+			"Building interactive learning modules with progress tracking",
+			"Ensuring scalable database design for course and user data",
+			"Coordinating development work across team members"
+		],
+		"achievements": [
+			"Delivered fully functional LMS with all required features",
+			"Implemented secure authentication and authorization system",
+			"Built responsive UI supporting multiple user roles",
+			"Applied SCRUM methodology throughout development"
+		],
+		"myContributions": [
+			"Led backend development with .NET and Entity Framework",
+			"Implemented user authentication and role-based access control",
+			"Designed and developed course management API endpoints",
+			"Set up testing framework and wrote comprehensive unit tests"
+		]
+	},
+	{
+		"id": 5,
+		"slug": "apples2apples",
+		"name": "Apples2Apples",
+		"description": "Java card game implementation showcasing multiple design patterns (Factory, Strategy, Dependency Injection) and comprehensive testing methodologies",
+		"heroImage": "/placeholder.svg",
+		"images": [
+			"/placeholder.svg",
+			"/placeholder.svg",
+			"/placeholder.svg"
+		],
+		"technologies": [
+			"Java",
+			"JUnit",
+			"Mockito",
+			"Design Patterns",
+			"Factory Pattern",
+			"Strategy Pattern",
+			"Dependency Injection"
+		],
+		"company": "University Project",
+		"role": "Developer",
+		"teamSize": "2 developers",
+		"duration": "3 months",
+		"challenges": [
+			"Implementing multiple design patterns in a cohesive architecture",
+			"Creating flexible game engine that supports various card game rules",
+			"Ensuring comprehensive test coverage for all game scenarios",
+			"Designing clean and maintainable object-oriented code structure"
+		],
+		"achievements": [
+			"Successfully implemented Factory, Strategy, and Dependency Injection patterns",
+			"Achieved 95%+ test coverage with comprehensive unit and integration tests",
+			"Created extensible game framework that supports multiple game variants",
+			"Delivered clean, well-documented codebase following SOLID principles"
+		],
+		"myContributions": [
+			"Designed and implemented the core game engine architecture",
+			"Applied multiple design patterns for flexible and maintainable code",
+			"Developed comprehensive testing suite with JUnit and Mockito",
+			"Created game logic and rule engine for card game mechanics"
+		]
+	},
+	{
+		"id": 6,
+		"slug": "languagepattern",
+		"name": "Language Pattern Frequency Detection",
+		"description": "Efficient language pattern detection system with statistical analysis and pattern recognition algorithms, similar to AI-based text analysis",
+		"heroImage": "/placeholder.svg",
+		"images": [
+			"/placeholder.svg",
+			"/placeholder.svg",
+			"/placeholder.svg"
+		],
+		"technologies": [
+			"C++",
+			"Algorithms",
+			"Statistical Analysis",
+			"Pattern Recognition",
+			"Data Structures"
+		],
+		"company": "University Project",
+		"role": "Developer",
+		"teamSize": "1 developer",
+		"duration": "4 months",
+		"challenges": [
+			"Implementing efficient text analysis algorithms for large datasets",
+			"Creating accurate pattern detection systems for multiple languages",
+			"Developing statistical models for frequency analysis",
+			"Optimizing performance for real-time pattern detection"
+		],
+		"achievements": [
+			"Successfully detected language patterns with 95% accuracy",
+			"Processed large text datasets efficiently",
+			"Created meaningful statistical analysis of language patterns",
+			"Implemented optimized algorithms for pattern prediction"
+		],
+		"myContributions": [
+			"Designed and implemented core pattern detection algorithms",
+			"Developed data processing pipeline for text analysis",
+			"Created statistical models for feature extraction",
+			"Built efficient data structures for pattern representation"
+		]
+	},
+	{
+		"id": 7,
+		"slug": "topdownshootingsword",
+		"name": "Top Down Shooting Sword",
+		"description": "Team-developed top-down action game with dual combat mechanics featuring both ranged and melee combat systems, developed in cross-functional agile team",
+		"heroImage": "/placeholder.svg",
+		"images": [
+			"/placeholder.svg",
+			"/placeholder.svg",
+			"/placeholder.svg"
+		],
+		"technologies": [
+			"Unity",
+			"C#",
+			"Game Design",
+			"2D Animation",
+			"Pathfinding",
+			"Combat Systems",
+			"Git",
+			"Agile"
+		],
+		"company": "FutureGames",
+		"role": "Game Programmer",
+		"teamSize": "6 team members (3 developers, 2 designers, 1 story designer)",
+		"duration": "2 months",
+		"challenges": [
+			"Creating seamless switching between ranged and melee combat",
+			"Collaborating in cross-functional team with designers and story writer",
+			"Implementing enemy AI with multiple behavior patterns",
+			"Applying agile/sprint methodology with Git version control"
+		],
+		"achievements": [
+			"Successfully collaborated in 6-person cross-functional team",
+			"Created functional dual combat system with smooth transitions",
+			"Implemented AI enemies with varied attack patterns",
+			"Applied agile methodology with sprint-based development"
+		],
+		"myContributions": [
+			"Designed and implemented the dual weapon combat system",
+			"Developed enemy AI behavior and pathfinding",
+			"Created player progression and upgrade systems",
+			"Collaborated with designers on game mechanics implementation"
+		]
+	},
+	{
+		"id": 8,
+		"slug": "abragame",
+		"name": "Abracadabra Money",
+		"description": "Interactive game project developed as part of FutureGames curriculum, featuring custom game mechanics and unique art style with performance optimization",
+		"heroImage": "/placeholder.svg",
+		"images": [
+			"/placeholder.svg",
+			"/placeholder.svg",
+			"/placeholder.svg"
+		],
+		"technologies": [
+			"Unity",
+			"C#",
+			"Game Design",
+			"3D Modeling",
+			"Animation",
+			"Physics",
+			"Performance Optimization"
+		],
+		"company": "FutureGames",
+		"role": "Game Programmer",
+		"teamSize": "5 team members",
+		"duration": "3 months",
+		"challenges": [
+			"Implementing custom game mechanics for innovative gameplay",
+			"Optimizing performance for smooth gameplay experience",
+			"Creating responsive controls and feedback systems",
+			"Integrating art assets with programming systems"
+		],
+		"achievements": [
+			"Delivered fully functional game prototype within deadline",
+			"Successfully implemented all required gameplay features",
+			"Created smooth, responsive player controls with optimization",
+			"Developed efficient game systems that work well together"
+		],
+		"myContributions": [
+			"Designed and implemented core gameplay mechanics",
+			"Developed player control systems and feedback loops",
+			"Applied performance optimization techniques",
+			"Implemented physics-based interactions and collisions"
+		]
+	}
 ]

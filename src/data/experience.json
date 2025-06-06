@@ -12,7 +12,7 @@
 		],
 		"projects": [
 			{
-				"name": "ConsultantResume",
+				"name": "Consultant Resume",
 				"slug": "consultantresume",
 				"description": "React-based PDF generator for creating dynamic consultant resumes",
 				"thumbnail": "/consultantresume-thumbnail.png"
@@ -52,7 +52,7 @@
 		],
 		"projects": [
 			{
-				"name": "GroceryOptimizer",
+				"name": "Grocery Optimizer",
 				"slug": "groceryoptimizer",
 				"description": "Optimization system for grocery shopping with algorithm-based route planning",
 				"thumbnail": "/groceryoptimizer-thumbnail.png"
@@ -83,7 +83,7 @@
 				"thumbnail": "/apples2apples-thumbnail.png"
 			},
 			{
-				"name": "LanguagePatternFrequencyDetection",
+				"name": "Language Pattern Frequency Detection",
 				"slug": "languagepattern",
 				"description": "System detecting and analyzing text language patterns similar to AI",
 				"thumbnail": "/languagepattern-thumbnail.png"
@@ -102,13 +102,13 @@
 		],
 		"projects": [
 			{
-				"name": "TopDownShootingSword",
+				"name": "Top Down Shooting Sword",
 				"slug": "topdownshootingsword",
 				"description": "Top-down action game with dual combat mechanics",
 				"thumbnail": "/topdownshootingsword-thumbnail.png"
 			},
 			{
-				"name": "AbraGame",
+				"name": "Abracadabra Money",
 				"slug": "abragame",
 				"description": "Interactive game project with custom mechanics and art style",
 				"thumbnail": "/abragame-thumbnail.png"
