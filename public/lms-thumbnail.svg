@@ -1,0 +1,11 @@
+<!-- LMS - Education system illustration -->
+<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="120" fill="#fdfdfd"/>
+  <rect x="20" y="30" width="60" height="40" fill="#38bdf8" rx="4"/>
+  <polygon points="100,40 120,20 140,40" fill="#0f172a"/>
+  <rect x="100" y="45" width="40" height="5" fill="#0f172a"/>
+  <rect x="100" y="55" width="40" height="5" fill="#0f172a"/>
+  <circle cx="170" cy="50" r="10" fill="#0f172a"/>
+  <path d="M165 50 l5 5 l10 -10" stroke="white" stroke-width="2" fill="none"/>
+  <text x="10" y="15" font-size="10" fill="#333">Course Tools</text>
+</svg>

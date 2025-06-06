@@ -1,0 +1,11 @@
+<!-- GroceryOptimizer - Route optimization without grocery label -->
+<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="120" fill="#f8fafc"/>
+  <path d="M30 90 Q50 60 70 90 T110 90 T150 90" stroke="#10b981" stroke-width="2" fill="none"/>
+  <circle cx="30" cy="90" r="4" fill="#10b981"/>
+  <circle cx="70" cy="90" r="4" fill="#10b981"/>
+  <circle cx="110" cy="90" r="4" fill="#10b981"/>
+  <circle cx="150" cy="90" r="4" fill="#10b981"/>
+  <rect x="85" y="30" width="30" height="20" fill="#10b981" rx="2"/>
+  <text x="10" y="15" font-size="10" fill="#333">Route &amp; Budget Optimization</text>
+</svg>
