@@ -216,5 +216,36 @@
       "Created statistical models for feature extraction",
       "Built visualization components for pattern representation"
     ]
+  },
+  {
+    "id": 8,
+    "slug": "apples2apples",
+    "name": "Apples2Apples",
+    "description": "Java card game implementation showcasing design patterns and comprehensive testing methodologies",
+    "heroImage": "/placeholder.svg",
+    "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+    "technologies": ["Java", "JUnit", "Mockito", "Design Patterns", "Factory Pattern", "Strategy Pattern", "Dependency Injection"],
+    "company": "University Project",
+    "role": "Developer",
+    "teamSize": "2 developers",
+    "duration": "3 months",
+    "challenges": [
+      "Implementing multiple design patterns in a cohesive architecture",
+      "Creating flexible game engine that supports various card game rules",
+      "Ensuring comprehensive test coverage for all game scenarios",
+      "Designing clean and maintainable object-oriented code structure"
+    ],
+    "achievements": [
+      "Successfully implemented Factory, Strategy, and Dependency Injection patterns",
+      "Achieved 95%+ test coverage with comprehensive unit and integration tests",
+      "Created extensible game framework that supports multiple game variants",
+      "Delivered clean, well-documented codebase following SOLID principles"
+    ],
+    "myContributions": [
+      "Designed and implemented the core game engine architecture",
+      "Applied multiple design patterns for flexible and maintainable code",
+      "Developed comprehensive testing suite with JUnit and Mockito",
+      "Created game logic and rule engine for card game mechanics"
+    ]
   }
 ]
