@@ -44,18 +44,18 @@ const ConsultantresumeDetail = () => {
 					<h1 className="text-3xl font-bold text-gray-900 mb-4">{project.name}</h1>
 					<p className="text-lg text-gray-600 mb-6">{project.description}</p>
 
-					<div className="grid grid-cols-3 md:grid-cols-4 gap-4 mb-6">
+					<div className="grid grid-cols-1 md:grid-cols-3 mb-6">
 						<div className="flex items-center text-sm text-gray-600">
 							<User className="w-4 h-4 mr-2" />
 							<span>{project.role}</span>
 						</div>
 						<div className="flex items-center text-sm text-gray-600">
-							<Users className="w-4 h-4 mr-2" />
-							<span>{project.teamSize}</span>
-						</div>
-						<div className="flex items-center text-sm text-gray-600">
 							<Building2 className="w-4 h-4 mr-2" />
 							<span className="font-medium">{project.company}</span>
+						</div>
+						<div className="flex items-center text-sm text-gray-600">
+							<Users className="w-4 h-4 mr-2" />
+							<span>{project.teamSize}</span>
 						</div>
 					</div>
 
@@ -69,37 +69,11 @@ const ConsultantresumeDetail = () => {
 							/>
 						</div>
 					</div>
-
-
-
-					<div>
-						<h3 className="font-medium text-gray-900 mb-2">Technologies Used</h3>
-						<div className="flex flex-wrap gap-2">
-							{project.technologies.map((tech, index) => (
-								<Badge key={index} variant="secondary">
-									{tech}
-								</Badge>
-							))}
-						</div>
-					</div>
 				</div>
-
 
 				{/* Project Details */}
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-					<Card>
-						<CardContent className="p-6">
-							<h3 className="text-lg font-semibold text-gray-900 mb-4">Key Challenges</h3>
-							<ul className="space-y-2">
-								{project.challenges.map((challenge, index) => (
-									<li key={index} className="text-sm text-gray-700">
-										• {challenge}
-									</li>
-								))}
-							</ul>
-						</CardContent>
-					</Card>
-
+					{/* Achievements Card */}
 					<Card>
 						<CardContent className="p-6">
 							<h3 className="text-lg font-semibold text-gray-900 mb-4">Achievements</h3>
@@ -112,21 +86,25 @@ const ConsultantresumeDetail = () => {
 							</ul>
 						</CardContent>
 					</Card>
+
+					{/* Technologies Card */}
+					<Card>
+						<CardContent className="p-6">
+							<h3 className="text-lg font-semibold text-gray-900 mb-4">Technologies Used</h3>
+							<div className="flex flex-wrap gap-2">
+								{project.technologies.map((tech, index) => (
+									<Badge key={index} variant="secondary">
+										{tech}
+									</Badge>
+								))}
+							</div>
+						</CardContent>
+					</Card>
+
+
 				</div>
 
-				{/* My Contributions */}
-				<Card className="mb-8">
-					<CardContent className="p-6">
-						<h3 className="text-lg font-semibold text-gray-900 mb-4">My Contributions</h3>
-						<ul className="space-y-2">
-							{project.myContributions.map((contribution, index) => (
-								<li key={index} className="text-sm text-gray-700">
-									• {contribution}
-								</li>
-							))}
-						</ul>
-					</CardContent>
-				</Card>
+
 
 				{/* Additional Screenshots */}
 				<div className="mb-8">

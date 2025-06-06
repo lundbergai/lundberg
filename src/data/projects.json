@@ -17,31 +17,21 @@
 			"Vite",
 			".NET",
 			"ASP.NET Core",
+			"MSSQL",
+			"LINQ",
 			"Entity Framework",
+			"Docker",
 			"MSAL",
 			"Azure DevOps",
-			"Docker"
+			"REST API"
 		],
 		"company": "Tromb",
 		"role": "Fullstack Developer",
-		"teamSize": "2 developers, 1 designer",
-		"challenges": [
-			"Implementing dynamic PDF generation with strict formatting requirements",
-			"Integrating with existing HR system using Entra ID authentication",
-			"Managing database operations and migrations in production environment",
-			"Collaborating with designer on pixel-perfect PDF formatting"
-		],
+		"teamSize": "1 developer, 1 designer, 1 mentor",
 		"achievements": [
 			"Successfully delivered PDF generator meeting all design specifications",
-			"Implemented secure authentication integration with existing HR system",
-			"Built efficient UI with caching for improved user experience",
+			"Implemented secure authentication and integration with existing HR system",
 			"Deployed using CI/CD pipelines with Docker containers"
-		],
-		"myContributions": [
-			"Developed React frontend with PDF generation capabilities",
-			"Built new .NET backend API endpoints for data management",
-			"Implemented MSAL authentication integration with Entra ID",
-			"Set up automated testing and deployment pipelines"
 		]
 	},
 	{
