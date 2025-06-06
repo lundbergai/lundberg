@@ -22,6 +22,8 @@
 			"Entity Framework",
 			"Docker",
 			"MSAL",
+			"Entra ID",
+			"OAuth2",
 			"Azure DevOps",
 			"REST API"
 		],
@@ -48,12 +50,14 @@
 		"technologies": [
 			"Node.js",
 			"TypeScript",
-			"HTTP APIs",
+			"ts-node",
+			"HTTP API",
 			"JSON",
 			"Axios",
-			"Linux",
 			"VMware",
 			"OpenVPN",
+			"Linux",
+			"Ubuntu",
 			"Nginx"
 		],
 		"company": "AlgoSkin",
@@ -98,9 +102,9 @@
 			"REST API",
 			"gRPC",
 			"SQL",
-			"Algorithms",
-			"Graph Theory",
-			"TDD"
+			"Docker",
+			"Entity Framework",
+			"LINQ"
 		],
 		"company": "Lexicon & LTU",
 		"role": "Backend Developer",
@@ -125,13 +129,15 @@
 		"technologies": [
 			"React",
 			"TypeScript",
-			".NET",
+			"Vite",
+			"C#",
+			".NET Core",
+			"ASP.NET",
 			"Entity Framework",
-			"SQL Server",
-			"JWT",
-			"TDD",
-			"xUnit",
-			"Git"
+			"SQL",
+			"LINQ",
+			"REST API",
+			"JWT"
 		],
 		"company": "Lexicon & LTU",
 		"role": "Full Stack Developer",
@@ -160,7 +166,8 @@
 			"Design Patterns",
 			"Factory Pattern",
 			"Strategy Pattern",
-			"Dependency Injection"
+			"Dependency Injection",
+			"IntelliJ"
 		],
 		"company": "University Project",
 		"role": "Developer",
@@ -184,6 +191,9 @@
 		],
 		"technologies": [
 			"C++",
+			"Regex",
+			"gcc",
+			"Xcode",
 			"Algorithms",
 			"Statistical Analysis",
 			"Pattern Recognition",
@@ -216,7 +226,13 @@
 			"Pathfinding",
 			"Combat Systems",
 			"Git",
-			"Agile"
+			"Fork",
+			"Jira",
+			"Agile",
+			"SCRUM",
+			"JetBrains Rider",
+			"Miro",
+			"Design Patterns"
 		],
 		"company": "FutureGames",
 		"role": "Game Programmer",
@@ -241,11 +257,19 @@
 		"technologies": [
 			"Unity",
 			"C#",
-			"Game Design",
-			"3D Modeling",
-			"Animation",
-			"Physics",
-			"Performance Optimization"
+			"Solidity",
+			"Nethereum",
+			"Ethereum",
+			"Smart Contracts",
+			"Blockchain",
+			"APIs",
+			"Git",
+			"Fork",
+			"Jira",
+			"JetBrains Rider",
+			"Miro",
+			"Photopea",
+			"Infura"
 		],
 		"company": "FutureGames",
 		"role": "Game Programmer",
