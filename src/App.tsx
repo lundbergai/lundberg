@@ -7,7 +7,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import Index from "./pages/Index";
 import Projects from "./pages/Projects";
-import ProjectDetail from "./pages/ProjectDetail";
 import AlgoskinDetail from "./pages/AlgoskinDetail";
 import ConsultantresumeDetail from "./pages/ConsultantresumeDetail";
 import LmsDetail from "./pages/LmsDetail";
@@ -30,7 +29,6 @@ const App = () => (
 				<Routes>
 					<Route path="/" element={<Index />} />
 					<Route path="/projects" element={<Projects />} />
-					<Route path="/projects/:id" element={<ProjectDetail />} />
 					<Route path="/projects/algoskin" element={<AlgoskinDetail />} />
 					<Route path="/projects/consultantresume" element={<ConsultantresumeDetail />} />
 					<Route path="/projects/lms" element={<LmsDetail />} />
