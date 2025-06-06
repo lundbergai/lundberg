@@ -101,10 +101,7 @@ const ConsultantresumeDetail = () => {
 						</CardContent>
 					</Card>
 
-
 				</div>
-
-
 
 				{/* Additional Screenshots */}
 				<div className="mb-8">
