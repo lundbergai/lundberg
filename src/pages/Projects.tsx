@@ -60,10 +60,6 @@ const Projects = () => {
 											</div>
 										</div>
 
-										<div className="flex justify-between text-xs text-gray-500">
-											<span>{project.company}</span>
-											<span>{project.duration}</span>
-										</div>
 									</div>
 								</CardContent>
 							</Card>
