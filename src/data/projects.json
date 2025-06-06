@@ -123,5 +123,98 @@
       "Developed backend API for processing optimization requests",
       "Created data structures for efficient store and product management"
     ]
+  },
+  {
+    "id": 5,
+    "slug": "abragame",
+    "name": "AbragGame",
+    "description": "Interactive game project developed as part of FutureGames curriculum, featuring custom game mechanics and unique art style",
+    "heroImage": "/placeholder.svg",
+    "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+    "technologies": ["Unity", "C#", "Game Design", "3D Modeling", "Animation", "Physics", "AI"],
+    "company": "FutureGames",
+    "role": "Game Programmer",
+    "teamSize": "5 team members",
+    "duration": "3 months",
+    "challenges": [
+      "Implementing custom game mechanics for innovative gameplay",
+      "Optimizing performance for smooth gameplay experience",
+      "Creating responsive controls and feedback systems",
+      "Integrating art assets with programming systems"
+    ],
+    "achievements": [
+      "Delivered fully functional game prototype within deadline",
+      "Successfully implemented all required gameplay features",
+      "Created smooth, responsive player controls",
+      "Developed efficient game systems that work well together"
+    ],
+    "myContributions": [
+      "Designed and implemented core gameplay mechanics",
+      "Developed player control systems and feedback loops",
+      "Created AI systems for non-player characters",
+      "Implemented physics-based interactions and collisions"
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "topdownshootingsword",
+    "name": "TopDownShootingSword",
+    "description": "Top-down action game with dual combat mechanics featuring both ranged and melee combat systems",
+    "heroImage": "/placeholder.svg",
+    "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+    "technologies": ["Unity", "C#", "Game Design", "2D Animation", "Pathfinding", "Combat Systems"],
+    "company": "FutureGames",
+    "role": "Game Programmer",
+    "teamSize": "4 team members",
+    "duration": "2 months",
+    "challenges": [
+      "Creating seamless switching between ranged and melee combat",
+      "Implementing enemy AI with multiple behavior patterns",
+      "Developing procedural level generation systems",
+      "Balancing difficulty and player progression"
+    ],
+    "achievements": [
+      "Created functional dual combat system with smooth transitions",
+      "Implemented AI enemies with varied attack patterns",
+      "Developed satisfying feedback systems for player actions",
+      "Built functional game loop with progression elements"
+    ],
+    "myContributions": [
+      "Designed and implemented the dual weapon combat system",
+      "Developed enemy AI behavior and pathfinding",
+      "Created player progression and upgrade systems",
+      "Implemented core game loop and level progression"
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "languagepattern",
+    "name": "LanguagePatternFrequencyDetection",
+    "description": "System for detecting and analyzing frequency patterns in language texts, featuring statistical analysis and pattern recognition",
+    "heroImage": "/placeholder.svg",
+    "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+    "technologies": ["Python", "Natural Language Processing", "Machine Learning", "Statistics", "Data Visualization"],
+    "company": "University Project",
+    "role": "Developer",
+    "teamSize": "2 developers",
+    "duration": "4 months",
+    "challenges": [
+      "Implementing efficient text analysis algorithms for large datasets",
+      "Creating accurate pattern detection systems for multiple languages",
+      "Developing statistical models for frequency analysis",
+      "Building intuitive visualizations for complex language patterns"
+    ],
+    "achievements": [
+      "Successfully detected language patterns with 95% accuracy",
+      "Processed large text datasets efficiently",
+      "Created meaningful visualizations of language patterns",
+      "Implemented machine learning model for pattern prediction"
+    ],
+    "myContributions": [
+      "Designed and implemented core pattern detection algorithms",
+      "Developed data processing pipeline for text analysis",
+      "Created statistical models for feature extraction",
+      "Built visualization components for pattern representation"
+    ]
   }
 ]

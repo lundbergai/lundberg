@@ -1,3 +1,4 @@
+
 [
 	{
 		"company": "Tromb",
@@ -38,6 +39,55 @@
 				"description": "Algorithmic arbitrage trading system built with Node.js and TypeScript",
 				"icon": "trending_up",
 				"thumbnail": "/algoskin-thumbnail.png"
+			}
+		]
+	},
+	{
+		"company": "University Projects",
+		"role": "Developer",
+		"period": "2020 - 2022",
+		"description": "Developed software projects as part of university computer science coursework, focusing on language patterns and algorithms.",
+		"achievements": [
+			"Created efficient language pattern detection algorithms",
+			"Implemented data processing pipelines for text analysis",
+			"Built statistical models for language feature extraction",
+			"Applied machine learning techniques to language classification problems"
+		],
+		"projects": [
+			{
+				"name": "LanguagePatternFrequencyDetection",
+				"slug": "languagepattern",
+				"description": "System for detecting and analyzing frequency patterns in language texts",
+				"icon": "language",
+				"thumbnail": "/placeholder.svg"
+			}
+		]
+	},
+	{
+		"company": "FutureGames Projects",
+		"role": "Game Programmer",
+		"period": "2021 - 2021",
+		"description": "Developed game projects as part of the game programming curriculum, with focus on game mechanics and performance optimization.",
+		"achievements": [
+			"Created multiple functional game prototypes",
+			"Implemented efficient game mechanics and systems",
+			"Collaborated with designers on gameplay features",
+			"Applied optimization techniques for smooth gameplay"
+		],
+		"projects": [
+			{
+				"name": "AbragGame",
+				"slug": "abragame",
+				"description": "Interactive game project with custom mechanics and art style",
+				"icon": "sports_esports",
+				"thumbnail": "/placeholder.svg"
+			},
+			{
+				"name": "TopDownShootingSword",
+				"slug": "topdownshootingsword",
+				"description": "Top-down action game with dual combat mechanics",
+				"icon": "gps_fixed",
+				"thumbnail": "/placeholder.svg"
 			}
 		]
 	},
