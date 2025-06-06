@@ -1,46 +1,78 @@
-
 {
-  "name": "Viktor Lundberg",
-  "title": "Full Stack Developer",
-  "email": "viktor@lundberg.ai",
-  "phone": "555-123-4567",
-  "linkedin": "linkedin.com/in/viktorlundberg",
-  "github": "github.com/viktorlundberg",
-  "website": "lundberg.ai",
-  "about": "Developer with a background in system development and dual degrees in .NET/React and Economics. Educated in modern AI development. Practical experience in agile test-driven development, CI/CD pipelines in Azure DevOps (including Docker containers), and projects with both .NET Web API/React and .NET Core MVC. Special expertise in algorithmic trading.",
-  "education": [
-    {
-      "school": "Lexicon IT Proffs & Luleå University of Technology",
-      "degree": "Fullstack Developer",
-      "period": "2024 - 2025"
-    },
-    {
-      "school": "Several Institutions",
-      "degree": "Computer Science University Courses",
-      "period": "2020 - 2022"
-    },
-    {
-      "school": "FutureGames, ChangeMaker Education",
-      "degree": "Game Programming",
-      "period": "2021 - 2021"
-    },
-    {
-      "school": "University of Gävle",
-      "degree": "Bachelor's Degree in Business and Economics",
-      "period": "2015 - 2018"
-    }
-  ],
-  "skills": {
-    "dotnet": [".NET", "C#", "ASP.NET Web", "MVC", "REST API", "EF Core"],
-    "ai": ["OpenAI API", "Prompt Engineering", "Generative AI"],
-    "authentication": ["MSAL", "Entra ID", "JWT", "OAuth"],
-    "collaboration": ["Git", "DevOps", "Jira", "Miro"],
-    "data": ["SQL", "MSSQL", "SQLite", "LINQ", "JSON", "XML"],
-    "infrastructure": ["Azure DevOps", "CI/CD Pipelines", "Pulumi IaC", "Nginx"],
-    "lowlevel": ["C++", "Solidity", "gRPC", "Java"],
-    "testing": ["TDD", "Unit Testing", "Integration Testing"],
-    "tools": ["Visual Studio", "VS Code", "Rider", "Figma", "Postman", "Copilot"],
-    "virtualization": ["Docker", "Linux", "VMWare", "OpenVPN"],
-    "web": ["React", "TypeScript", "Vite", "Node.js", "HTML", "CSS"]
-  }
+	"name": "Viktor Lundberg",
+	"title": "Fullstack Developer",
+	"email": "viktor@lundberg.ai",
+	"about": "Fullstack Developer with expertise in .NET/React and modern AI development. I have built production REST APIs, implemented database migrations, and delivered products from designer specifications with strict requirements. Experienced in agile TDD workflows and CI/CD pipelines in Azure DevOps with Docker. These days I'm focused on AI integration and cloud infrastructure.",
+	"education": [
+		{
+			"school": "Lexicon IT Proffs & Luleå University of Technology",
+			"degree": "Fullstack Developer",
+			"period": "2024 - 2025"
+		},
+		{
+			"school": "Several Institutions",
+			"degree": "Computer Science University Courses",
+			"period": "2020 - 2022"
+		},
+		{
+			"school": "FutureGames, ChangeMaker Education",
+			"degree": "Game Programming",
+			"period": "2021 - 2021"
+		},
+		{
+			"school": "University of Gävle",
+			"degree": "Bachelor's Degree in Business and Economics",
+			"period": "2015 - 2018"
+		}
+	],
+	"skills": {
+		"data": [
+			"SQL",
+			"MSSQL",
+			"SQLite",
+			"LINQ",
+			"JSON",
+			"XML"
+		],
+		"dotnet": [
+			".NET",
+			"C#",
+			"ASP.NET Web",
+			"MVC",
+			"REST API",
+			"EF Core"
+		],
+		"infrastructure": [
+			"Azure DevOps",
+			"CI/CD Pipelines",
+			"Docker",
+			"Pulumi IaC",
+			"Nginx",
+			"Git"
+		],
+		"java": [
+			"Java",
+			"Gradle",
+			"Quarkus",
+			"JDBC",
+			"JUnit",
+			"Mockito",
+			"IntelliJ"
+		],
+		"testing": [
+			"TDD",
+			"Unit Testing",
+			"Integration Testing",
+			"xUnit",
+			"Moq"
+		],
+		"web": [
+			"React",
+			"TypeScript",
+			"Vite",
+			"Node.js",
+			"HTML",
+			"CSS"
+		]
+	}
 }

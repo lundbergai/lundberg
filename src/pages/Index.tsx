@@ -24,8 +24,8 @@ const Index = () => {
 				<header className="text-center mb-8">
 					<h1 className="text-4xl font-bold text-gray-900 mb-2">{name}</h1>
 					<p className="text-lg text-gray-600 mb-1">{title}</p>
-					<a 
-						href={`mailto:${email}`} 
+					<a
+						href={`mailto:${email}`}
 						className="text-sm text-gray-500 hover:text-gray-700 transition-colors"
 					>
 						{email}
@@ -67,9 +67,9 @@ const Index = () => {
 										</div>
 									</div>
 									<div>
-										<h4 className="font-medium text-gray-900 mb-2">AI</h4>
+										<h4 className="font-medium text-gray-900 mb-2">Java</h4>
 										<div className="flex flex-wrap gap-2">
-											{skills.ai.map((skill, index) => (
+											{skills.java.map((skill, index) => (
 												<Badge key={index} variant="secondary" className="bg-blue-600 text-white text-xs hover:bg-blue-500 hover:bg-opacity-90 transition-colors">
 													{skill}
 												</Badge>
@@ -180,8 +180,8 @@ const Index = () => {
 															className="group border border-gray-200 rounded-lg p-4 hover:border-slate-400 hover:shadow-md transition-all duration-200 cursor-pointer block"
 														>
 															<div className="aspect-video bg-gray-50 rounded mb-3 overflow-hidden">
-																<img 
-																	src={project.thumbnail} 
+																<img
+																	src={project.thumbnail}
 																	alt={project.name}
 																	className="w-full h-full object-cover"
 																/>
@@ -261,8 +261,8 @@ const Index = () => {
 															className="group border border-gray-200 rounded-lg p-4 hover:border-slate-400 hover:shadow-md transition-all duration-200 cursor-pointer block"
 														>
 															<div className="aspect-video bg-gray-50 rounded mb-3 overflow-hidden">
-																<img 
-																	src={project.thumbnail} 
+																<img
+																	src={project.thumbnail}
 																	alt={project.name}
 																	className="w-full h-full object-cover"
 																/>
@@ -308,7 +308,7 @@ const Index = () => {
 									<div>
 										<h4 className="font-medium text-gray-900 mb-2">AI</h4>
 										<div className="flex flex-wrap gap-2">
-											{skills.ai.map((skill, index) => (
+											{skills.java.map((skill, index) => (
 												<Badge key={index} variant="secondary" className="bg-blue-600 text-white text-xs hover:bg-blue-500 hover:bg-opacity-90 transition-colors">
 													{skill}
 												</Badge>
