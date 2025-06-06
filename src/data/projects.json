@@ -42,11 +42,6 @@
 		"name": "AlgoSkin",
 		"description": "Profitable algorithmic arbitrage trading system built with Node.js and TypeScript, featuring real-time API integration, data scraping, and complex price calculations for automated trading operations",
 		"heroImage": "/placeholder.svg",
-		"images": [
-			"/placeholder.svg",
-			"/placeholder.svg",
-			"/placeholder.svg"
-		],
 		"technologies": [
 			"Node.js",
 			"TypeScript",
@@ -60,28 +55,8 @@
 			"Ubuntu",
 			"Nginx"
 		],
-		"company": "AlgoSkin",
 		"role": "Developer",
-		"teamSize": "Solo project",
-		"duration": "3+ years (ongoing)",
-		"challenges": [
-			"Implementing real-time algorithmic price calculations for arbitrage opportunities",
-			"Ensuring high system uptime with extensive error handling",
-			"Managing secure operations in Linux environment with VPN tunnels",
-			"Integrating multiple external APIs for data collection and trading"
-		],
-		"achievements": [
-			"Built and deployed profitable trading system with consistent returns",
-			"Achieved 99%+ uptime through robust error handling",
-			"Successfully integrated multiple external trading APIs",
-			"Implemented secure infrastructure with virtualization and VPN"
-		],
-		"myContributions": [
-			"Designed and implemented the entire algorithmic trading architecture",
-			"Built real-time data scraping and processing systems",
-			"Developed complex price calculation algorithms for arbitrage detection",
-			"Set up and maintained secure Linux-based production environment"
-		]
+		"duration": "3+ years (ongoing)"
 	},
 	{
 		"id": 3,
@@ -169,7 +144,7 @@
 			"Dependency Injection",
 			"IntelliJ"
 		],
-		"company": "University Project",
+		"company": "Luleå University of Technology",
 		"role": "Developer",
 		"teamSize": "Solo project",
 		"achievements": [
@@ -199,7 +174,7 @@
 			"Pattern Recognition",
 			"Data Structures"
 		],
-		"company": "University Project",
+		"company": "Uppsala University",
 		"role": "Developer",
 		"teamSize": "Solo project",
 		"achievements": [
