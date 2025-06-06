@@ -1,22 +1,20 @@
-
 [
 	{
 		"company": "Tromb",
 		"role": "Fullstack Developer",
 		"period": "2025 - Present",
-		"description": "Developed React-based applications with focus on PDF generation and HR system integration using modern web technologies.",
+		"description": "Developed React-based PDF generator with .NET backend, collaborating with designers on strict formatting requirements and integrating with existing HR systems.",
 		"achievements": [
-			"Successfully delivered PDF generator meeting all design specifications",
-			"Implemented secure authentication integration with existing HR system",
-			"Built efficient UI with caching for improved user experience",
-			"Deployed using CI/CD pipelines with Docker containers"
+			"Built production PDF generator meeting all design specifications",
+			"Implemented Entra ID (MSAL) authentication with existing HR system",
+			"Developed new .NET API endpoints and managed database migrations",
+			"Delivered using agile TDD workflows and CI/CD pipelines with Docker"
 		],
 		"projects": [
 			{
 				"name": "ConsultantResume",
 				"slug": "consultantresume",
-				"description": "React-based PDF generator for dynamically creating consultant resumes",
-				"icon": "description",
+				"description": "React-based PDF generator for creating dynamic consultant resumes",
 				"thumbnail": "/consultantresume-thumbnail.png"
 			}
 		]
@@ -25,97 +23,95 @@
 		"company": "AlgoSkin",
 		"role": "Developer",
 		"period": "2022 - Present",
-		"description": "Developed and maintained algorithmic trading systems with focus on arbitrage opportunities and real-time market analysis.",
+		"description": "Designed and operate profitable algorithmic arbitrage trading system with Node.js/TypeScript, featuring external API integration and secure Linux infrastructure.",
 		"achievements": [
 			"Built profitable trading system with consistent returns",
-			"Achieved 99%+ uptime through robust error handling",
-			"Successfully integrated multiple external trading APIs",
-			"Implemented secure infrastructure with virtualization and VPN"
+			"Achieved 99%+ uptime through extensive error handling",
+			"Integrated multiple external APIs with data scraping capabilities",
+			"Deployed secure infrastructure with Linux virtualization and VPN"
 		],
 		"projects": [
 			{
 				"name": "AlgoSkin",
 				"slug": "algoskin",
-				"description": "Algorithmic arbitrage trading system built with Node.js and TypeScript",
-				"icon": "trending_up",
+				"description": "Algorithmic trading system built with Node.js and TypeScript",
 				"thumbnail": "/algoskin-thumbnail.png"
 			}
 		]
 	},
 	{
-		"company": "Lexicon & LTU Group Projects",
-		"role": "Full Stack Developer",
+		"company": "Lexicon & LTU Projects",
+		"role": "Fullstack Developer Student",
 		"period": "2024 - 2025",
-		"description": "Collaborated on comprehensive learning management system as part of educational curriculum, focusing on user authentication and course management.",
+		"description": "Comprehensive fullstack education covering .NET/React development, databases, testing, and agile methodologies with practical project work.",
 		"achievements": [
-			"Delivered fully functional LMS with all required features",
-			"Implemented secure authentication and authorization system",
-			"Built responsive UI supporting multiple user roles",
-			"Achieved 90%+ test coverage using TDD methodology"
+			"Completed fullstack program with .NET Core and React",
+			"Built Learning Management System with authentication and user roles",
+			"Built smart grocery optimization system with route planning algorithms and mapping",
+			"Applied SCRUM methodology in team-based software engineering projects"
 		],
 		"projects": [
 			{
 				"name": "LMS",
 				"slug": "lms",
-				"description": "Comprehensive Learning Management System with user authentication",
-				"icon": "school",
+				"description": "Learning Management System with user authentication",
 				"thumbnail": "/lms-thumbnail.png"
 			},
 			{
 				"name": "GroceryOptimizer",
 				"slug": "groceryoptimizer",
 				"description": "Optimization system for grocery shopping with algorithm-based route planning",
-				"icon": "local_grocery_store",
 				"thumbnail": "/groceryoptimizer-thumbnail.png"
 			}
 		]
 	},
 	{
 		"company": "University Projects",
-		"role": "Developer",
+		"role": "Developer Student",
 		"period": "2020 - 2022",
-		"description": "Developed software projects as part of university computer science coursework, focusing on language patterns and algorithms.",
+		"description": "Developed software projects as part of university computer science courses, mostly focusing on algorithms and datastructures.",
 		"achievements": [
+			"Implemented multiple design patterns (Factory, Strategy, Dependency Injection) in Java project",
 			"Created efficient language pattern detection algorithms",
-			"Implemented data processing pipelines for text analysis",
-			"Built statistical models for language feature extraction",
-			"Applied machine learning techniques to language classification problems"
+			"Applied comprehensive testing strategies across projects"
 		],
 		"projects": [
 			{
+				"name": "Apples2Apples",
+				"slug": "apples2apples",
+				"description": "Java card game implementation showcasing design patterns and testing",
+				"thumbnail": "/apples2apples-thumbnail.png"
+			},
+			{
 				"name": "LanguagePatternFrequencyDetection",
 				"slug": "languagepattern",
-				"description": "System for detecting and analyzing frequency patterns in language texts",
-				"icon": "language",
+				"description": "System detecting and analyzing text language patterns similar to AI",
 				"thumbnail": "/languagepattern-thumbnail.png"
 			}
 		]
 	},
 	{
 		"company": "FutureGames Projects",
-		"role": "Game Programmer",
+		"role": "Game Programmer Student",
 		"period": "2021 - 2021",
-		"description": "Developed game projects as part of the game programming curriculum, with focus on game mechanics and performance optimization.",
+		"description": "Developed game projects in Unity with focus on agile teamwork and performance optimization.",
 		"achievements": [
+			"Collaborated in cross-functional team with designers and developers",
 			"Created multiple functional game prototypes",
-			"Implemented efficient game mechanics and systems",
-			"Collaborated with designers on gameplay features",
-			"Applied optimization techniques for smooth gameplay"
+			"Applied agile/sprint methodology with Git version control"
 		],
 		"projects": [
-			{
-				"name": "AbragGame",
-				"slug": "abragame",
-				"description": "Interactive game project with custom mechanics and art style",
-				"icon": "sports_esports",
-				"thumbnail": "/abragame-thumbnail.png"
-			},
 			{
 				"name": "TopDownShootingSword",
 				"slug": "topdownshootingsword",
 				"description": "Top-down action game with dual combat mechanics",
-				"icon": "gps_fixed",
 				"thumbnail": "/topdownshootingsword-thumbnail.png"
+			},
+			{
+				"name": "AbragGame",
+				"slug": "abragame",
+				"description": "Interactive game project with custom mechanics and art style",
+				"thumbnail": "/abragame-thumbnail.png"
 			}
 		]
 	}
