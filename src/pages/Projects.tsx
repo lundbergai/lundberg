@@ -1,5 +1,4 @@
-
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { ExternalLink } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
@@ -9,10 +8,6 @@ import projectsData from '@/data/projects.json';
 
 const Projects = () => {
 	const projects = projectsData;
-
-	useEffect(() => {
-		window.scrollTo(0, 0);
-	}, []);
 
 	return (
 		<div className="min-h-screen bg-white">

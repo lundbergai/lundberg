@@ -24,7 +24,12 @@ const Index = () => {
 				<header className="text-center mb-8">
 					<h1 className="text-4xl font-bold text-gray-900 mb-2">{name}</h1>
 					<p className="text-lg text-gray-600 mb-1">{title}</p>
-					<p className="text-sm text-gray-500">{email}</p>
+					<a 
+						href={`mailto:${email}`} 
+						className="text-sm text-gray-500 hover:text-gray-700 transition-colors"
+					>
+						{email}
+					</a>
 				</header>
 
 				<div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -55,7 +60,7 @@ const Index = () => {
 										<h4 className="font-medium text-gray-900 mb-2">.NET</h4>
 										<div className="flex flex-wrap gap-2">
 											{skills.dotnet.map((skill, index) => (
-												<Badge key={index} variant="secondary" className="bg-gray-800 text-white text-xs hover:bg-gray-700 transition-colors">
+												<Badge key={index} variant="secondary" className="bg-gray-800 text-white text-xs hover:bg-gray-700 hover:bg-opacity-90 transition-colors">
 													{skill}
 												</Badge>
 											))}
@@ -65,7 +70,7 @@ const Index = () => {
 										<h4 className="font-medium text-gray-900 mb-2">AI</h4>
 										<div className="flex flex-wrap gap-2">
 											{skills.ai.map((skill, index) => (
-												<Badge key={index} variant="secondary" className="bg-blue-600 text-white text-xs hover:bg-blue-500 transition-colors">
+												<Badge key={index} variant="secondary" className="bg-blue-600 text-white text-xs hover:bg-blue-500 hover:bg-opacity-90 transition-colors">
 													{skill}
 												</Badge>
 											))}
@@ -75,7 +80,7 @@ const Index = () => {
 										<h4 className="font-medium text-gray-900 mb-2">Web</h4>
 										<div className="flex flex-wrap gap-2">
 											{skills.web.map((skill, index) => (
-												<Badge key={index} variant="secondary" className="bg-green-600 text-white text-xs hover:bg-green-500 transition-colors">
+												<Badge key={index} variant="secondary" className="bg-green-600 text-white text-xs hover:bg-green-500 hover:bg-opacity-90 transition-colors">
 													{skill}
 												</Badge>
 											))}
@@ -85,7 +90,7 @@ const Index = () => {
 										<h4 className="font-medium text-gray-900 mb-2">Data</h4>
 										<div className="flex flex-wrap gap-2">
 											{skills.data.map((skill, index) => (
-												<Badge key={index} variant="secondary" className="bg-purple-600 text-white text-xs hover:bg-purple-500 transition-colors">
+												<Badge key={index} variant="secondary" className="bg-purple-600 text-white text-xs hover:bg-purple-500 hover:bg-opacity-90 transition-colors">
 													{skill}
 												</Badge>
 											))}
@@ -95,7 +100,7 @@ const Index = () => {
 										<h4 className="font-medium text-gray-900 mb-2">Infrastructure</h4>
 										<div className="flex flex-wrap gap-2">
 											{skills.infrastructure.map((skill, index) => (
-												<Badge key={index} variant="secondary" className="bg-orange-600 text-white text-xs hover:bg-orange-500 transition-colors">
+												<Badge key={index} variant="secondary" className="bg-orange-600 text-white text-xs hover:bg-orange-500 hover:bg-opacity-90 transition-colors">
 													{skill}
 												</Badge>
 											))}
@@ -105,7 +110,7 @@ const Index = () => {
 										<h4 className="font-medium text-gray-900 mb-2">Testing</h4>
 										<div className="flex flex-wrap gap-2">
 											{skills.testing.map((skill, index) => (
-												<Badge key={index} variant="secondary" className="bg-red-600 text-white text-xs hover:bg-red-500 transition-colors">
+												<Badge key={index} variant="secondary" className="bg-red-600 text-white text-xs hover:bg-red-500 hover:bg-opacity-90 transition-colors">
 													{skill}
 												</Badge>
 											))}
@@ -294,7 +299,7 @@ const Index = () => {
 										<h4 className="font-medium text-gray-900 mb-2">.NET</h4>
 										<div className="flex flex-wrap gap-2">
 											{skills.dotnet.map((skill, index) => (
-												<Badge key={index} variant="secondary" className="bg-gray-800 text-white text-xs hover:bg-gray-700 transition-colors">
+												<Badge key={index} variant="secondary" className="bg-gray-800 text-white text-xs hover:bg-gray-700 hover:bg-opacity-90 transition-colors">
 													{skill}
 												</Badge>
 											))}
@@ -304,7 +309,7 @@ const Index = () => {
 										<h4 className="font-medium text-gray-900 mb-2">AI</h4>
 										<div className="flex flex-wrap gap-2">
 											{skills.ai.map((skill, index) => (
-												<Badge key={index} variant="secondary" className="bg-blue-600 text-white text-xs hover:bg-blue-500 transition-colors">
+												<Badge key={index} variant="secondary" className="bg-blue-600 text-white text-xs hover:bg-blue-500 hover:bg-opacity-90 transition-colors">
 													{skill}
 												</Badge>
 											))}
@@ -314,7 +319,7 @@ const Index = () => {
 										<h4 className="font-medium text-gray-900 mb-2">Web</h4>
 										<div className="flex flex-wrap gap-2">
 											{skills.web.map((skill, index) => (
-												<Badge key={index} variant="secondary" className="bg-green-600 text-white text-xs hover:bg-green-500 transition-colors">
+												<Badge key={index} variant="secondary" className="bg-green-600 text-white text-xs hover:bg-green-500 hover:bg-opacity-90 transition-colors">
 													{skill}
 												</Badge>
 											))}
@@ -324,7 +329,7 @@ const Index = () => {
 										<h4 className="font-medium text-gray-900 mb-2">Data</h4>
 										<div className="flex flex-wrap gap-2">
 											{skills.data.map((skill, index) => (
-												<Badge key={index} variant="secondary" className="bg-purple-600 text-white text-xs hover:bg-purple-500 transition-colors">
+												<Badge key={index} variant="secondary" className="bg-purple-600 text-white text-xs hover:bg-purple-500 hover:bg-opacity-90 transition-colors">
 													{skill}
 												</Badge>
 											))}
@@ -334,7 +339,7 @@ const Index = () => {
 										<h4 className="font-medium text-gray-900 mb-2">Infrastructure</h4>
 										<div className="flex flex-wrap gap-2">
 											{skills.infrastructure.map((skill, index) => (
-												<Badge key={index} variant="secondary" className="bg-orange-600 text-white text-xs hover:bg-orange-500 transition-colors">
+												<Badge key={index} variant="secondary" className="bg-orange-600 text-white text-xs hover:bg-orange-500 hover:bg-opacity-90 transition-colors">
 													{skill}
 												</Badge>
 											))}
@@ -344,7 +349,7 @@ const Index = () => {
 										<h4 className="font-medium text-gray-900 mb-2">Testing</h4>
 										<div className="flex flex-wrap gap-2">
 											{skills.testing.map((skill, index) => (
-												<Badge key={index} variant="secondary" className="bg-red-600 text-white text-xs hover:bg-red-500 transition-colors">
+												<Badge key={index} variant="secondary" className="bg-red-600 text-white text-xs hover:bg-red-500 hover:bg-opacity-90 transition-colors">
 													{skill}
 												</Badge>
 											))}
