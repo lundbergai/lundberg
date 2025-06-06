@@ -5,12 +5,12 @@ import { ExternalLink } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import Navbar from '@/components/Navbar';
-import workExperienceData from '@/data/workExperience.json';
+import experienceData from '@/data/experience.json';
 import personalInfoData from '@/data/personalInfo.json';
 
 const Index = () => {
 	const { name, title, email, about, education, skills } = personalInfoData;
-	const workExperience = workExperienceData;
+	const experience = experienceData;
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -150,7 +150,7 @@ const Index = () => {
 								</div>
 
 								<div className="space-y-8">
-									{workExperience.map((job, index) => (
+									{experience.map((job, index) => (
 										<div key={index} className="border-l-2 border-gray-200 pl-6 relative">
 											<div className="absolute -left-2 top-0 w-3 h-3 bg-gray-900 rounded-full"></div>
 
@@ -231,7 +231,7 @@ const Index = () => {
 								</div>
 
 								<div className="space-y-8">
-									{workExperience.map((job, index) => (
+									{experience.map((job, index) => (
 										<div key={index} className="border-l-2 border-gray-200 pl-6 relative">
 											<div className="absolute -left-2 top-0 w-3 h-3 bg-gray-900 rounded-full"></div>
 

@@ -46,22 +46,22 @@
 		"description": "Comprehensive fullstack education covering .NET/React development, databases, testing, and agile methodologies with practical project work.",
 		"achievements": [
 			"Completed fullstack program with .NET Core and React",
-			"Built Learning Management System with authentication and user roles",
 			"Built smart grocery optimization system with route planning algorithms and mapping",
+			"Built Learning Management System with authentication and user roles",
 			"Applied SCRUM methodology in team-based software engineering projects"
 		],
 		"projects": [
-			{
-				"name": "LMS",
-				"slug": "lms",
-				"description": "Learning Management System with user authentication",
-				"thumbnail": "/lms-thumbnail.png"
-			},
 			{
 				"name": "GroceryOptimizer",
 				"slug": "groceryoptimizer",
 				"description": "Optimization system for grocery shopping with algorithm-based route planning",
 				"thumbnail": "/groceryoptimizer-thumbnail.png"
+			},
+			{
+				"name": "LMS",
+				"slug": "lms",
+				"description": "Learning Management System with user authentication",
+				"thumbnail": "/lms-thumbnail.png"
 			}
 		]
 	},
@@ -108,7 +108,7 @@
 				"thumbnail": "/topdownshootingsword-thumbnail.png"
 			},
 			{
-				"name": "AbragGame",
+				"name": "AbraGame",
 				"slug": "abragame",
 				"description": "Interactive game project with custom mechanics and art style",
 				"thumbnail": "/abragame-thumbnail.png"
