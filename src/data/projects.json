@@ -25,7 +25,6 @@
 		"company": "Tromb",
 		"role": "Fullstack Developer",
 		"teamSize": "2 developers, 1 designer",
-		"duration": "6 months",
 		"challenges": [
 			"Implementing dynamic PDF generation with strict formatting requirements",
 			"Integrating with existing HR system using Entra ID authentication",
@@ -116,7 +115,6 @@
 		"company": "Lexicon & LTU",
 		"role": "Backend Developer",
 		"teamSize": "3 developers",
-		"duration": "2 months",
 		"challenges": [
 			"Building API hub connecting frontend via REST and backend services via gRPC",
 			"Implementing efficient route optimization algorithms with mapping",
@@ -161,7 +159,6 @@
 		"company": "Lexicon & LTU",
 		"role": "Full Stack Developer",
 		"teamSize": "4 developers",
-		"duration": "3 months",
 		"challenges": [
 			"Implementing comprehensive user role management system",
 			"Building interactive learning modules with progress tracking",
@@ -204,7 +201,6 @@
 		"company": "University Project",
 		"role": "Developer",
 		"teamSize": "2 developers",
-		"duration": "3 months",
 		"challenges": [
 			"Implementing multiple design patterns in a cohesive architecture",
 			"Creating flexible game engine that supports various card game rules",
@@ -245,7 +241,6 @@
 		"company": "University Project",
 		"role": "Developer",
 		"teamSize": "1 developer",
-		"duration": "4 months",
 		"challenges": [
 			"Implementing efficient text analysis algorithms for large datasets",
 			"Creating accurate pattern detection systems for multiple languages",
@@ -289,7 +284,6 @@
 		"company": "FutureGames",
 		"role": "Game Programmer",
 		"teamSize": "6 team members (3 developers, 2 designers, 1 story designer)",
-		"duration": "2 months",
 		"challenges": [
 			"Creating seamless switching between ranged and melee combat",
 			"Collaborating in cross-functional team with designers and story writer",
@@ -332,7 +326,6 @@
 		"company": "FutureGames",
 		"role": "Game Programmer",
 		"teamSize": "5 team members",
-		"duration": "3 months",
 		"challenges": [
 			"Implementing custom game mechanics for innovative gameplay",
 			"Optimizing performance for smooth gameplay experience",
