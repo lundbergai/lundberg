@@ -1,6 +1,7 @@
-import React from 'react';
+
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Users, User, Building2 } from 'lucide-react';
+import { ArrowLeft, Users, User, Building2, X } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -9,6 +10,27 @@ import projectsData from '@/data/projects.json';
 
 const Apples2ApplesDetail = () => {
 	const project = projectsData.find(p => p.slug === "apples2apples");
+	const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
+	// Handle escape key and outside click to close modal
+	useEffect(() => {
+		const handleEscape = (e: KeyboardEvent) => {
+			if (e.key === 'Escape') {
+				setSelectedImage(null);
+			}
+		};
+
+		if (selectedImage) {
+			document.addEventListener('keydown', handleEscape);
+			return () => document.removeEventListener('keydown', handleEscape);
+		}
+	}, [selectedImage]);
+
+	const handleModalClick = (e: React.MouseEvent) => {
+		if (e.target === e.currentTarget) {
+			setSelectedImage(null);
+		}
+	};
 
 	if (!project) {
 		return (
@@ -61,7 +83,10 @@ const Apples2ApplesDetail = () => {
 
 					{/* Hero Image */}
 					<div className="mb-8">
-						<div className="aspect-video bg-gray-100 rounded-lg overflow-hidden">
+						<div 
+							className="aspect-video bg-gray-100 rounded-lg overflow-hidden cursor-pointer hover:scale-102 transition-transform duration-300"
+							onClick={() => setSelectedImage(project.heroImage)}
+						>
 							<img
 								src={project.heroImage}
 								alt={project.name}
@@ -107,7 +132,11 @@ const Apples2ApplesDetail = () => {
 					<h3 className="text-lg font-semibold text-gray-900 mb-4">Project Screenshots</h3>
 					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 						{project.images.map((image, index) => (
-							<div key={index} className="aspect-video bg-gray-100 rounded-lg overflow-hidden">
+							<div 
+								key={index} 
+								className="aspect-video bg-gray-100 rounded-lg overflow-hidden cursor-pointer hover:scale-103 transition-transform duration-300"
+								onClick={() => setSelectedImage(image)}
+							>
 								<img
 									src={image}
 									alt={`${project.name} screenshot ${index + 1}`}
@@ -118,6 +147,28 @@ const Apples2ApplesDetail = () => {
 					</div>
 				</div>
 			</div>
+
+			{/* Image Modal */}
+			{selectedImage && (
+				<div 
+					className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
+					onClick={handleModalClick}
+				>
+					<div className="relative max-w-4xl max-h-full">
+						<button
+							onClick={() => setSelectedImage(null)}
+							className="absolute top-4 right-4 text-white hover:text-gray-300 transition-colors z-10"
+						>
+							<X className="w-8 h-8" />
+						</button>
+						<img
+							src={selectedImage}
+							alt="Enlarged view"
+							className="max-w-full max-h-full object-contain rounded-lg"
+						/>
+					</div>
+				</div>
+			)}
 		</div>
 	);
 };

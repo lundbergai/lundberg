@@ -228,8 +228,7 @@
 		"images": [
 			"/abragame/crypto_menu.png",
 			"/abragame/gameplay2.png",
-			"/abragame/gameplay3.png",
-			"/abragame/menu.png"
+			"/abragame/gameplay3.png"
 		],
 		"technologies": [
 			"Unity",

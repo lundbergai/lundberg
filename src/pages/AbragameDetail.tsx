@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Users, User, Building2, X } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
@@ -11,6 +11,26 @@ import projectsData from '@/data/projects.json';
 const AbragameDetail = () => {
 	const project = projectsData.find(p => p.slug === "abragame");
 	const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
+	// Handle escape key and outside click to close modal
+	useEffect(() => {
+		const handleEscape = (e: KeyboardEvent) => {
+			if (e.key === 'Escape') {
+				setSelectedImage(null);
+			}
+		};
+
+		if (selectedImage) {
+			document.addEventListener('keydown', handleEscape);
+			return () => document.removeEventListener('keydown', handleEscape);
+		}
+	}, [selectedImage]);
+
+	const handleModalClick = (e: React.MouseEvent) => {
+		if (e.target === e.currentTarget) {
+			setSelectedImage(null);
+		}
+	};
 
 	if (!project) {
 		return (
@@ -64,7 +84,7 @@ const AbragameDetail = () => {
 					{/* Hero Image */}
 					<div className="mb-8">
 						<div 
-							className="aspect-video bg-gray-100 rounded-lg overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300"
+							className="aspect-video bg-gray-100 rounded-lg overflow-hidden cursor-pointer hover:scale-102 transition-transform duration-300"
 							onClick={() => setSelectedImage(project.heroImage)}
 						>
 							<img
@@ -114,7 +134,7 @@ const AbragameDetail = () => {
 						{project.images.map((image, index) => (
 							<div 
 								key={index} 
-								className="aspect-video bg-gray-100 rounded-lg overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300"
+								className="aspect-video bg-gray-100 rounded-lg overflow-hidden cursor-pointer hover:scale-103 transition-transform duration-300"
 								onClick={() => setSelectedImage(image)}
 							>
 								<img
@@ -130,7 +150,10 @@ const AbragameDetail = () => {
 
 			{/* Image Modal */}
 			{selectedImage && (
-				<div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4">
+				<div 
+					className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
+					onClick={handleModalClick}
+				>
 					<div className="relative max-w-4xl max-h-full">
 						<button
 							onClick={() => setSelectedImage(null)}
