@@ -1,4 +1,3 @@
-
 [
 	{
 		"id": 1,
@@ -226,9 +225,9 @@
 		"description": "Interactive game project developed as part of FutureGames semester, featuring integrated APIs and real-time blockchain connection.",
 		"heroImage": "/abragame/gameplay.png",
 		"images": [
+			"/abragame/gameplay3.png",
 			"/abragame/crypto_menu.png",
-			"/abragame/gameplay2.png",
-			"/abragame/gameplay3.png"
+			"/abragame/menu.png"
 		],
 		"technologies": [
 			"Unity",
