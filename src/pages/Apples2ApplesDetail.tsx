@@ -83,8 +83,8 @@ const Apples2ApplesDetail = () => {
 
 					{/* Hero Image */}
 					<div className="mb-8">
-						<div 
-							className="aspect-video bg-gray-100 rounded-lg overflow-hidden cursor-pointer hover:scale-102 transition-transform duration-300"
+						<div
+							className="aspect-video bg-gray-100 rounded-lg overflow-hidden cursor-pointer transition-transform duration-300"
 							onClick={() => setSelectedImage(project.heroImage)}
 						>
 							<img
@@ -132,9 +132,9 @@ const Apples2ApplesDetail = () => {
 					<h3 className="text-lg font-semibold text-gray-900 mb-4">Project Screenshots</h3>
 					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 						{project.images.map((image, index) => (
-							<div 
-								key={index} 
-								className="aspect-video bg-gray-100 rounded-lg overflow-hidden cursor-pointer hover:scale-103 transition-transform duration-300"
+							<div
+								key={index}
+								className="aspect-video bg-gray-100 rounded-lg overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300"
 								onClick={() => setSelectedImage(image)}
 							>
 								<img
@@ -150,7 +150,7 @@ const Apples2ApplesDetail = () => {
 
 			{/* Image Modal */}
 			{selectedImage && (
-				<div 
+				<div
 					className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
 					onClick={handleModalClick}
 				>
