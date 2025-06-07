@@ -8,8 +8,8 @@ import { Button } from '@/components/ui/button';
 import Navbar from '@/components/Navbar';
 import projectsData from '@/data/projects.json';
 
-const GroceryOptimizerDetail = () => {
-	const project = projectsData.find(p => p.slug === "groceryoptimizer");
+const LanguagePatternDetails = () => {
+	const project = projectsData.find(p => p.slug === "languagepattern");
 	const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
 	// Handle escape key and outside click to close modal
@@ -173,4 +173,4 @@ const GroceryOptimizerDetail = () => {
 	);
 };
 
-export default GroceryOptimizerDetail;
+export default LanguagePatternDetails;

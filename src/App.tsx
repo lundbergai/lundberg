@@ -7,14 +7,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import Index from "./pages/Index";
 import Projects from "./pages/Projects";
-import AlgoSkinDetail from "./pages/AlgoSkinDetail";
-import ConsultantResumeDetail from "./pages/ConsultantResumeDetail";
-import LmsDetail from "./pages/LmsDetail";
-import GroceryOptimizerDetail from "./pages/GroceryOptimizerDetail";
-import AbraGameDetail from "./pages/AbraGameDetail";
-import TopDownShootingSwordDetail from "./pages/TopDownShootingSwordDetail";
-import LanguagePatternDetail from "./pages/LanguagePatternDetail";
-import Apples2ApplesDetail from "./pages/Apples2ApplesDetail";
+import AlgoSkinDetails from "./pages/AlgoSkinDetails";
+import ConsultantResumeDetails from "./pages/ConsultantResumeDetails";
+import LmsDetails from "./pages/LmsDetails";
+import GroceryOptimizerDetails from "./pages/GroceryOptimizerDetails";
+import AbraGameDetails from "./pages/AbraGameDetails";
+import TopDownShootingSwordDetails from "./pages/TopDownShootingSwordDetails";
+import LanguagePatternDetails from "./pages/LanguagePatternDetails";
+import Apples2ApplesDetails from "./pages/Apples2ApplesDetails";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -29,14 +29,14 @@ const App = () => (
 				<Routes>
 					<Route path="/" element={<Index />} />
 					<Route path="/projects" element={<Projects />} />
-					<Route path="/projects/algoskin" element={<AlgoSkinDetail />} />
-					<Route path="/projects/consultantresume" element={<ConsultantResumeDetail />} />
-					<Route path="/projects/lms" element={<LmsDetail />} />
-					<Route path="/projects/groceryoptimizer" element={<GroceryOptimizerDetail />} />
-					<Route path="/projects/abragame" element={<AbraGameDetail />} />
-					<Route path="/projects/topdownshootingsword" element={<TopDownShootingSwordDetail />} />
-					<Route path="/projects/languagepattern" element={<LanguagePatternDetail />} />
-					<Route path="/projects/apples2apples" element={<Apples2ApplesDetail />} />
+					<Route path="/projects/algoskin" element={<AlgoSkinDetails />} />
+					<Route path="/projects/consultantresume" element={<ConsultantResumeDetails />} />
+					<Route path="/projects/lms" element={<LmsDetails />} />
+					<Route path="/projects/groceryoptimizer" element={<GroceryOptimizerDetails />} />
+					<Route path="/projects/abragame" element={<AbraGameDetails />} />
+					<Route path="/projects/topdownshootingsword" element={<TopDownShootingSwordDetails />} />
+					<Route path="/projects/languagepattern" element={<LanguagePatternDetails />} />
+					<Route path="/projects/apples2apples" element={<Apples2ApplesDetails />} />
 					{/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 					<Route path="*" element={<NotFound />} />
 				</Routes>

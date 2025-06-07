@@ -8,8 +8,8 @@ import { Button } from '@/components/ui/button';
 import Navbar from '@/components/Navbar';
 import projectsData from '@/data/projects.json';
 
-const Apples2ApplesDetail = () => {
-	const project = projectsData.find(p => p.slug === "apples2apples");
+const LmsDetails = () => {
+	const project = projectsData.find(p => p.slug === "lms");
 	const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
 	// Handle escape key and outside click to close modal
@@ -173,4 +173,4 @@ const Apples2ApplesDetail = () => {
 	);
 };
 
-export default Apples2ApplesDetail;
+export default LmsDetails;

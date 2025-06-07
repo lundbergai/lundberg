@@ -1,15 +1,15 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Users, Calendar, User, Building2, X } from 'lucide-react';
+import { ArrowLeft, Users, User, Building2, X } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import Navbar from '@/components/Navbar';
 import projectsData from '@/data/projects.json';
 
-const ConsultantResumeDetail = () => {
-	const project = projectsData.find(p => p.slug === "consultantresume");
+const AbraGameDetails = () => {
+	const project = projectsData.find(p => p.slug === "abragame");
 	const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
 	// Handle escape key and outside click to close modal
@@ -66,7 +66,7 @@ const ConsultantResumeDetail = () => {
 					<h1 className="text-3xl font-bold text-gray-900 mb-4">{project.name}</h1>
 					<p className="text-lg text-gray-600 mb-6">{project.description}</p>
 
-					<div className="grid grid-cols-1 md:grid-cols-3 mb-6">
+					<div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
 						<div className="flex items-center text-sm text-gray-600">
 							<User className="w-4 h-4 mr-2" />
 							<span>{project.role}</span>
@@ -125,7 +125,6 @@ const ConsultantResumeDetail = () => {
 							</div>
 						</CardContent>
 					</Card>
-
 				</div>
 
 				{/* Additional Screenshots */}
@@ -174,4 +173,4 @@ const ConsultantResumeDetail = () => {
 	);
 };
 
-export default ConsultantResumeDetail;
+export default AbraGameDetails;
