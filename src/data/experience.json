@@ -15,7 +15,7 @@
 				"name": "Consultant Resume",
 				"slug": "consultantresume",
 				"description": "React-based PDF generator for creating dynamic consultant resumes",
-				"thumbnail": "/consultantresume-thumbnail.png"
+				"thumbnail": "/thumbnails/consultantresume-thumbnail.png"
 			}
 		]
 	},
@@ -35,7 +35,7 @@
 				"name": "AlgoSkin",
 				"slug": "algoskin",
 				"description": "Algorithmic trading system built with Node.js and TypeScript",
-				"thumbnail": "/algoskin-thumbnail.png"
+				"thumbnail": "/thumbnails/algoskin-thumbnail.png"
 			}
 		]
 	},
@@ -55,13 +55,13 @@
 				"name": "Grocery Optimizer",
 				"slug": "groceryoptimizer",
 				"description": "Optimization system for grocery shopping with algorithm-based route planning",
-				"thumbnail": "/groceryoptimizer-thumbnail.png"
+				"thumbnail": "/thumbnails/groceryoptimizer-thumbnail.png"
 			},
 			{
 				"name": "LMS",
 				"slug": "lms",
 				"description": "Learning Management System with user authentication",
-				"thumbnail": "/lms-thumbnail.png"
+				"thumbnail": "/thumbnails/lms-thumbnail.png"
 			}
 		]
 	},
@@ -80,13 +80,13 @@
 				"name": "Apples2Apples",
 				"slug": "apples2apples",
 				"description": "Java card game implementation showcasing design patterns and testing",
-				"thumbnail": "/apples2apples-thumbnail.png"
+				"thumbnail": "/thumbnails/apples2apples-thumbnail.png"
 			},
 			{
 				"name": "Language Pattern Frequency Detection",
 				"slug": "languagepattern",
 				"description": "System detecting and analyzing text language patterns similar to AI",
-				"thumbnail": "/languagepattern-thumbnail.png"
+				"thumbnail": "/thumbnails/languagepattern-thumbnail.png"
 			}
 		]
 	},
@@ -105,13 +105,13 @@
 				"name": "Top Down Shooting Sword",
 				"slug": "topdownshootingsword",
 				"description": "Top-down action game with dual combat mechanics",
-				"thumbnail": "/topdownshootingsword-thumbnail.png"
+				"thumbnail": "/thumbnails/topdownshootingsword-thumbnail.png"
 			},
 			{
 				"name": "Abracadabra Money",
 				"slug": "abragame",
 				"description": "Interactive game with real-time blockchain connections",
-				"thumbnail": "/abragame-thumbnail.png"
+				"thumbnail": "/thumbnails/abragame-thumbnail.png"
 			}
 		]
 	}
