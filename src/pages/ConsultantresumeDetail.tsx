@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button';
 import Navbar from '@/components/Navbar';
 import projectsData from '@/data/projects.json';
 
-const ConsultantresumeDetail = () => {
+const ConsultantResumeDetail = () => {
 	const project = projectsData.find(p => p.slug === "consultantresume");
 	const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
@@ -174,4 +174,4 @@ const ConsultantresumeDetail = () => {
 	);
 };
 
-export default ConsultantresumeDetail;
+export default ConsultantResumeDetail;

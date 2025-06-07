@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button';
 import Navbar from '@/components/Navbar';
 import projectsData from '@/data/projects.json';
 
-const AbragameDetail = () => {
+const AbraGameDetail = () => {
 	const project = projectsData.find(p => p.slug === "abragame");
 	const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
@@ -173,4 +173,4 @@ const AbragameDetail = () => {
 	);
 };
 
-export default AbragameDetail;
+export default AbraGameDetail;

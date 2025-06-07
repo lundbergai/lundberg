@@ -7,13 +7,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import Index from "./pages/Index";
 import Projects from "./pages/Projects";
-import AlgoskinDetail from "./pages/AlgoskinDetail";
-import ConsultantresumeDetail from "./pages/ConsultantresumeDetail";
+import AlgoSkinDetail from "./pages/AlgoSkinDetail";
+import ConsultantResumeDetail from "./pages/ConsultantResumeDetail";
 import LmsDetail from "./pages/LmsDetail";
-import GroceryoptimizerDetail from "./pages/GroceryoptimizerDetail";
-import AbragameDetail from "./pages/AbragameDetail";
-import TopdownshootingswordDetail from "./pages/TopdownshootingswordDetail";
-import LanguagepatternDetail from "./pages/LanguagepatternDetail";
+import GroceryOptimizerDetail from "./pages/GroceryOptimizerDetail";
+import AbraGameDetail from "./pages/AbraGameDetail";
+import TopDownShootingSwordDetail from "./pages/TopDownShootingSwordDetail";
+import LanguagePatternDetail from "./pages/LanguagePatternDetail";
 import Apples2ApplesDetail from "./pages/Apples2ApplesDetail";
 import NotFound from "./pages/NotFound";
 
@@ -29,13 +29,13 @@ const App = () => (
 				<Routes>
 					<Route path="/" element={<Index />} />
 					<Route path="/projects" element={<Projects />} />
-					<Route path="/projects/algoskin" element={<AlgoskinDetail />} />
-					<Route path="/projects/consultantresume" element={<ConsultantresumeDetail />} />
+					<Route path="/projects/algoskin" element={<AlgoSkinDetail />} />
+					<Route path="/projects/consultantresume" element={<ConsultantResumeDetail />} />
 					<Route path="/projects/lms" element={<LmsDetail />} />
-					<Route path="/projects/groceryoptimizer" element={<GroceryoptimizerDetail />} />
-					<Route path="/projects/abragame" element={<AbragameDetail />} />
-					<Route path="/projects/topdownshootingsword" element={<TopdownshootingswordDetail />} />
-					<Route path="/projects/languagepattern" element={<LanguagepatternDetail />} />
+					<Route path="/projects/groceryoptimizer" element={<GroceryOptimizerDetail />} />
+					<Route path="/projects/abragame" element={<AbraGameDetail />} />
+					<Route path="/projects/topdownshootingsword" element={<TopDownShootingSwordDetail />} />
+					<Route path="/projects/languagepattern" element={<LanguagePatternDetail />} />
 					<Route path="/projects/apples2apples" element={<Apples2ApplesDetail />} />
 					{/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 					<Route path="*" element={<NotFound />} />

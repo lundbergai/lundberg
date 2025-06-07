@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 import Navbar from '@/components/Navbar';
 import projectsData from '@/data/projects.json';
 
-const AlgoskinDetail = () => {
+const AlgoSkinDetail = () => {
 	const project = projectsData.find(p => p.slug === "algoskin");
 
 	if (!project) {
@@ -98,4 +98,4 @@ const AlgoskinDetail = () => {
 	);
 };
 
-export default AlgoskinDetail;
+export default AlgoSkinDetail;

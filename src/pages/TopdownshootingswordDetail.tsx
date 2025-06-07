@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button';
 import Navbar from '@/components/Navbar';
 import projectsData from '@/data/projects.json';
 
-const TopdownshootingswordDetail = () => {
+const TopDownShootingSwordDetail = () => {
 	const project = projectsData.find(p => p.slug === "topdownshootingsword");
 	const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
@@ -173,4 +173,4 @@ const TopdownshootingswordDetail = () => {
 	);
 };
 
-export default TopdownshootingswordDetail;
+export default TopDownShootingSwordDetail;

@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button';
 import Navbar from '@/components/Navbar';
 import projectsData from '@/data/projects.json';
 
-const LanguagepatternDetail = () => {
+const LanguagePatternDetail = () => {
 	const project = projectsData.find(p => p.slug === "languagepattern");
 	const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
@@ -173,4 +173,4 @@ const LanguagepatternDetail = () => {
 	);
 };
 
-export default LanguagepatternDetail;
+export default LanguagePatternDetail;

@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button';
 import Navbar from '@/components/Navbar';
 import projectsData from '@/data/projects.json';
 
-const GroceryoptimizerDetail = () => {
+const GroceryOptimizerDetail = () => {
 	const project = projectsData.find(p => p.slug === "groceryoptimizer");
 	const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
@@ -173,4 +173,4 @@ const GroceryoptimizerDetail = () => {
 	);
 };
 
-export default GroceryoptimizerDetail;
+export default GroceryOptimizerDetail;
