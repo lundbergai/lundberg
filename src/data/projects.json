@@ -223,11 +223,11 @@
 		"slug": "abragame",
 		"name": "Abracadabra Money",
 		"description": "Interactive game project developed as part of FutureGames semester, featuring integrated APIs and real-time blockchain connection.",
-		"heroImage": "/placeholder.svg",
+		"heroImage": "/abragame/gameplay.png",
 		"images": [
-			"/placeholder.svg",
-			"/placeholder.svg",
-			"/placeholder.svg"
+			"/abragame/crypto_menu.png",
+			"/abragame/gameplay2.png",
+			"/abragame/gameplay3.png"
 		],
 		"technologies": [
 			"Unity",
