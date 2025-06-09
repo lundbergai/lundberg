@@ -17,21 +17,21 @@ const Navbar = () => {
 					<div className="flex space-x-6">
 						<Link
 							to="/"
-							className={`text-sm font-medium transition-colors ${location.pathname === '/'
-								? 'text-gray-900 border-b-2 border-gray-900 pb-1'
-								: 'text-gray-600 hover:text-gray-900'
-								}`}
-						>
-							Profile
-						</Link>
-						<Link
-							to="/projects"
-							className={`text-sm font-medium transition-colors ${location.pathname.startsWith('/projects')
+							className={`text-sm font-medium transition-colors ${location.pathname === '/' || location.pathname.startsWith('/projects')
 								? 'text-gray-900 border-b-2 border-gray-900 pb-1'
 								: 'text-gray-600 hover:text-gray-900'
 								}`}
 						>
 							Projects
+						</Link>
+						<Link
+							to="/profile"
+							className={`text-sm font-medium transition-colors ${location.pathname === '/profile'
+								? 'text-gray-900 border-b-2 border-gray-900 pb-1'
+								: 'text-gray-600 hover:text-gray-900'
+								}`}
+						>
+							Profile
 						</Link>
 					</div>
 				</div>
