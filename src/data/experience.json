@@ -15,7 +15,7 @@
 				"name": "Consultant Resume",
 				"slug": "consultantresume",
 				"description": "React-based PDF generator for creating dynamic consultant resumes",
-				"thumbnail": "/thumbnails/consultantresume-thumbnail.png"
+				"thumbnail": "/consultantresume/hero.png"
 			}
 		]
 	},
@@ -35,7 +35,7 @@
 				"name": "AlgoSkin",
 				"slug": "algoskin",
 				"description": "Algorithmic trading system built with Node.js and TypeScript",
-				"thumbnail": "/thumbnails/algoskin-thumbnail.png"
+				"thumbnail": "/algoskin/hero.png"
 			}
 		]
 	},
@@ -55,13 +55,13 @@
 				"name": "Grocery Optimizer",
 				"slug": "groceryoptimizer",
 				"description": "Optimization system for grocery shopping with algorithm-based route planning",
-				"thumbnail": "/thumbnails/groceryoptimizer-thumbnail.png"
+				"thumbnail": "/groceryoptimizer/hero.jpg"
 			},
 			{
 				"name": "LMS",
 				"slug": "lms",
 				"description": "Learning Management System with user authentication",
-				"thumbnail": "/thumbnails/lms-thumbnail.png"
+				"thumbnail": "/groceryoptimizer/hero.jpg"
 			}
 		]
 	},
@@ -80,13 +80,13 @@
 				"name": "Apples2Apples",
 				"slug": "apples2apples",
 				"description": "Java card game implementation showcasing design patterns and testing",
-				"thumbnail": "/thumbnails/apples2apples-thumbnail.png"
+				"thumbnail": "/apples2apples/hero.jpg"
 			},
 			{
 				"name": "Language Pattern Frequency Detection",
 				"slug": "languagepattern",
 				"description": "System detecting and analyzing text language patterns similar to AI",
-				"thumbnail": "/thumbnails/languagepattern-thumbnail.png"
+				"thumbnail": "/languagepattern/hero.jpg"
 			}
 		]
 	},
@@ -105,13 +105,13 @@
 				"name": "Top Down Shooting Sword",
 				"slug": "topdownshootingsword",
 				"description": "Top-down action game with dual combat mechanics",
-				"thumbnail": "/thumbnails/topdownshootingsword-thumbnail.png"
+				"thumbnail": "/topdownshootingsword/hero.png"
 			},
 			{
 				"name": "Abracadabra Money",
 				"slug": "abragame",
 				"description": "Interactive game with real-time blockchain connections",
-				"thumbnail": "/thumbnails/abragame-thumbnail.png"
+				"thumbnail": "/abragame/hero.png"
 			}
 		]
 	}

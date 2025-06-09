@@ -59,7 +59,7 @@
 		"slug": "groceryoptimizer",
 		"name": "Grocery Optimizer",
 		"description": "Smart grocery shopping optimization system with route planning algorithms and mapping functionality, developed as a school group project featuring API hub connecting frontend and backend services via REST and gRPC",
-		"heroImage": "/groceryoptimizer/landing.jpg",
+		"heroImage": "/groceryoptimizer/hero.jpg",
 		"images": [
 			"/groceryoptimizer/map.jpg",
 			"/groceryoptimizer/checkout.png",
@@ -91,7 +91,7 @@
 		"slug": "lms",
 		"name": "LMS",
 		"description": "Comprehensive Learning Management System developed as a school group project, featuring user authentication, role-based access control, and interactive learning modules",
-		"heroImage": "/lms/teacher1.png",
+		"heroImage": "/lms/hero.png",
 		"images": [
 			"/lms/teacher2.png",
 			"/lms/student1.png",
@@ -154,7 +154,7 @@
 		"slug": "languagepattern",
 		"name": "Language Pattern Frequency Detection",
 		"description": "Efficient language pattern detection system with statistical analysis and pattern recognition algorithms, similar to AI-based text analysis",
-		"heroImage": "/languagepattern/code1.jpg",
+		"heroImage": "/languagepattern/hero.jpg",
 		"images": [
 			"/languagepattern/code2.jpg",
 			"/languagepattern/results1.jpg",
@@ -183,7 +183,7 @@
 		"slug": "topdownshootingsword",
 		"name": "Top Down Shooting Sword",
 		"description": "Team-developed top-down action game with dual combat mechanics featuring both ranged and melee combat systems, developed in cross-functional agile team",
-		"heroImage": "/topdownshootingsword/gameplay1.png",
+		"heroImage": "/topdownshootingsword/hero.png",
 		"images": [
 			"/topdownshootingsword/gameplay2.png",
 			"/topdownshootingsword/gameplay3.png",
@@ -219,7 +219,7 @@
 		"slug": "abragame",
 		"name": "Abracadabra Money",
 		"description": "Interactive game project developed as part of FutureGames semester, featuring integrated APIs and real-time blockchain connection.",
-		"heroImage": "/abragame/gameplay.png",
+		"heroImage": "/abragame/hero.png",
 		"images": [
 			"/abragame/gameplay3.png",
 			"/abragame/crypto_menu.png",
