@@ -41,7 +41,7 @@
 		"slug": "algoskin",
 		"name": "AlgoSkin",
 		"description": "Profitable algorithmic arbitrage trading system built with Node.js and TypeScript, featuring real-time API integration, data scraping, and complex price calculations for automated trading operations",
-		"heroImage": "/placeholder.svg",
+		"heroImage": "/algoskin/hero.png",
 		"technologies": [
 			"Node.js",
 			"TypeScript",
@@ -63,11 +63,11 @@
 		"slug": "groceryoptimizer",
 		"name": "Grocery Optimizer",
 		"description": "Smart grocery shopping optimization system with route planning algorithms and mapping functionality, developed as a school group project featuring API hub connecting frontend and backend services via REST and gRPC",
-		"heroImage": "/placeholder.svg",
+		"heroImage": "/groceryoptimizer/landing.jpg",
 		"images": [
-			"/placeholder.svg",
-			"/placeholder.svg",
-			"/placeholder.svg"
+			"/groceryoptimizer/map.jpg",
+			"/groceryoptimizer/checkout.png",
+			"/groceryoptimizer/algoprio.png"
 		],
 		"technologies": [
 			"React",
@@ -95,11 +95,11 @@
 		"slug": "lms",
 		"name": "LMS",
 		"description": "Comprehensive Learning Management System developed as a school group project, featuring user authentication, role-based access control, and interactive learning modules",
-		"heroImage": "/placeholder.svg",
+		"heroImage": "/lms/teacher1.png",
 		"images": [
-			"/placeholder.svg",
-			"/placeholder.svg",
-			"/placeholder.svg"
+			"/lms/teacher2.png",
+			"/lms/student1.png",
+			"/lms/login.png"
 		],
 		"technologies": [
 			"React",
@@ -128,11 +128,11 @@
 		"slug": "apples2apples",
 		"name": "Apples2Apples",
 		"description": "Java card game implementation showcasing multiple design patterns (Factory, Strategy, Dependency Injection) and comprehensive testing methodologies",
-		"heroImage": "/placeholder.svg",
+		"heroImage": "/apples2apples/hero.jpg",
 		"images": [
-			"/placeholder.svg",
-			"/placeholder.svg",
-			"/placeholder.svg"
+			"/apples2apples/UML_factory.png",
+			"/apples2apples/UML_strategy.png",
+			"/apples2apples/UML_dependency-injection.png"
 		],
 		"technologies": [
 			"Java",
