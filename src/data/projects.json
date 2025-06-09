@@ -158,11 +158,11 @@
 		"slug": "languagepattern",
 		"name": "Language Pattern Frequency Detection",
 		"description": "Efficient language pattern detection system with statistical analysis and pattern recognition algorithms, similar to AI-based text analysis",
-		"heroImage": "/placeholder.svg",
+		"heroImage": "/languagepattern/code1.jpg",
 		"images": [
-			"/placeholder.svg",
-			"/placeholder.svg",
-			"/placeholder.svg"
+			"/languagepattern/code2.jpg",
+			"/languagepattern/results1.jpg",
+			"/languagepattern/results2.jpg"
 		],
 		"technologies": [
 			"C++",
@@ -187,11 +187,11 @@
 		"slug": "topdownshootingsword",
 		"name": "Top Down Shooting Sword",
 		"description": "Team-developed top-down action game with dual combat mechanics featuring both ranged and melee combat systems, developed in cross-functional agile team",
-		"heroImage": "/placeholder.svg",
+		"heroImage": "/topdownshootingsword/gameplay1.png",
 		"images": [
-			"/placeholder.svg",
-			"/placeholder.svg",
-			"/placeholder.svg"
+			"/topdownshootingsword/gameplay2.png",
+			"/topdownshootingsword/gameplay3.png",
+			"/topdownshootingsword/menu1.png"
 		],
 		"technologies": [
 			"Unity",
