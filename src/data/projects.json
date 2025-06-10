@@ -5,7 +5,11 @@
 		"name": "Consultant Resume",
 		"description": "Production React-based PDF generator for creating dynamic consultant resumes with strict formatting requirements, integrated with HR systems using Entra ID authentication",
 		"heroImage": "/consultantresume/hero.png",
-		"images": [],
+		"images": [
+			"/consultantresume/1.png",
+			"/consultantresume/2.jpg",
+			"/consultantresume/3.jpg"
+		],
 		"technologies": [
 			"React",
 			"React-pdf",
