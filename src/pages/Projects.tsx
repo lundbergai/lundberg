@@ -16,7 +16,7 @@ const Projects = () => {
 				<div className="mb-8">
 					<h1 className="text-3xl font-bold text-gray-900 mb-3">Projects</h1>
 					<p className="text-gray-600">
-						A showcase of the applications and systems I've built throughout my career.
+						A showcase of a few applications and systems I built throughout my career.
 					</p>
 				</div>
 
