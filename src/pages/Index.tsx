@@ -1,7 +1,7 @@
 
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink, Github, Mail } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import Navbar from '@/components/Navbar';
@@ -27,15 +27,16 @@ const Index = () => {
 					<div className="flex items-center justify-center gap-6">
 						<a
 							href={`mailto:${email}`}
-							className="text-sm text-gray-500 hover:text-gray-700 transition-colors"
+							className="flex items-center gap-1 text-xs text-gray-500 hover:text-gray-700 transition-colors"
 						>
+							<Mail size={16} />
 							{email}
 						</a>
 						<a
 							href="https://github.com/lundbergai"
 							target="_blank"
 							rel="noopener noreferrer"
-							className="flex items-center gap-1 text-sm text-gray-500 hover:text-gray-700 transition-colors"
+							className="flex items-center gap-1 text-xs text-gray-500 hover:text-gray-700 transition-colors"
 						>
 							<Github size={16} />
 							lundbergai
