@@ -9,6 +9,8 @@ import Index from "./pages/Index";
 import Projects from "./pages/Projects";
 import AlgoSkinDetails from "./pages/AlgoSkinDetails";
 import ConsultantResumeDetails from "./pages/ConsultantResumeDetails";
+import AipifyLocalDetails from "./pages/AipifyLocalDetails";
+import ResumeCraftDetails from "./pages/ResumeCraftDetails";
 import LmsDetails from "./pages/LmsDetails";
 import GroceryOptimizerDetails from "./pages/GroceryOptimizerDetails";
 import AbraGameDetails from "./pages/AbraGameDetails";
@@ -25,11 +27,12 @@ const App = () => (
 			<Toaster />
 			<Sonner />
 			<BrowserRouter>
-				<ScrollToTop />
-				<Routes>
+				<ScrollToTop />				<Routes>
 					<Route path="/" element={<Projects />} />
 					<Route path="/profile" element={<Index />} />
 					<Route path="/projects" element={<Projects />} />
+					<Route path="/projects/aipifylocal" element={<AipifyLocalDetails />} />
+					<Route path="/projects/resumecraft" element={<ResumeCraftDetails />} />
 					<Route path="/projects/algoskin" element={<AlgoSkinDetails />} />
 					<Route path="/projects/consultantresume" element={<ConsultantResumeDetails />} />
 					<Route path="/projects/lms" element={<LmsDetails />} />

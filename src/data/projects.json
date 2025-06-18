@@ -1,6 +1,64 @@
 [
 	{
 		"id": 1,
+		"slug": "aipifylocal",
+		"name": "Aipify Local",
+		"description": "Fully offline AI chat application that runs local GGUF language models using llama.cpp, ensuring complete data privacy by guaranteeing that no user data leaves the local network",
+		"heroImage": "/aipifylocal/hero.png",
+		"images": [
+			"/aipifylocal/chat-interface.png",
+			"/aipifylocal/model-selection.png",
+			"/aipifylocal/settings.png"
+		],
+		"link": "https://aipify-local.vercel.app/",
+		"technologies": [
+			"React",
+			"TypeScript",
+			"Vite",
+			"Node.js",
+			"Llama.cpp",
+			"GGUF"
+		],
+		"company": "Aipify",
+		"role": "Developer",
+		"achievements": [
+			"Built fully offline AI chat ensuring complete data privacy",
+			"Integrated local GGUF language models with llama.cpp",
+			"Created secure solution requiring no internet connection for AI operations"
+		]
+	},
+	{
+		"id": 2,
+		"slug": "resumecraft",
+		"name": "AI Resume Craft",
+		"description": "AI-enhanced tool for creating professional resumes and cover letters, built with React and integrated with OpenAI API to help users craft compelling job application materials",
+		"heroImage": "/resumecraft/hero.png",
+		"images": [
+			"/resumecraft/editor.png",
+			"/resumecraft/templates.png",
+			"/resumecraft/ai-suggestions.png"
+		],
+		"link": "https://ai-resume-craft.vercel.app/",
+		"technologies": [
+			"React",
+			"TypeScript",
+			"Vite",
+			"Node.js",
+			"Firebase",
+			"Vercel",
+			"OpenAI API",
+			"Lovable"
+		],
+		"company": "Aipify",
+		"role": "Developer",
+		"achievements": [
+			"Developed AI-powered resume and cover letter creation tool",
+			"Integrated OpenAI API for intelligent content generation",
+			"Built user-friendly interface for professional document creation"
+		]
+	},
+	{
+		"id": 3,
 		"slug": "consultantresume",
 		"name": "Consultant Resume",
 		"description": "Production React-based PDF generator for creating dynamic consultant resumes with strict formatting requirements, integrated with HR systems using Entra ID authentication",
@@ -37,11 +95,12 @@
 		]
 	},
 	{
-		"id": 2,
+		"id": 4,
 		"slug": "algoskin",
 		"name": "AlgoSkin",
 		"description": "Profitable algorithmic arbitrage trading system built with Node.js and TypeScript, featuring real-time API integration, data scraping, and complex price calculations for automated trading operations",
 		"heroImage": "/algoskin/hero.png",
+		"link": "http://algo.skin/",
 		"technologies": [
 			"Node.js",
 			"TypeScript",
@@ -59,7 +118,7 @@
 		"duration": "3+ years (ongoing)"
 	},
 	{
-		"id": 3,
+		"id": 5,
 		"slug": "groceryoptimizer",
 		"name": "Grocery Optimizer",
 		"description": "Smart grocery shopping optimization system with route planning algorithms and mapping functionality, developed as a school group project featuring API hub connecting frontend and backend services via REST and gRPC",
@@ -91,7 +150,7 @@
 		]
 	},
 	{
-		"id": 4,
+		"id": 6,
 		"slug": "lms",
 		"name": "LMS",
 		"description": "Comprehensive Learning Management System developed as a school group project, featuring user authentication, role-based access control, and interactive learning modules",
@@ -124,7 +183,7 @@
 		]
 	},
 	{
-		"id": 5,
+		"id": 7,
 		"slug": "apples2apples",
 		"name": "Apples2Apples",
 		"description": "Java card game implementation showcasing multiple design patterns (Factory, Strategy, Dependency Injection) and comprehensive testing methodologies",
@@ -154,7 +213,7 @@
 		]
 	},
 	{
-		"id": 6,
+		"id": 8,
 		"slug": "languagepattern",
 		"name": "Language Pattern Frequency Detection",
 		"description": "Efficient language pattern detection system with statistical analysis and pattern recognition algorithms, similar to AI-based text analysis",
@@ -183,7 +242,7 @@
 		]
 	},
 	{
-		"id": 7,
+		"id": 9,
 		"slug": "topdownshootingsword",
 		"name": "Top Down Shooting Sword",
 		"description": "Team-developed top-down action game with dual combat mechanics featuring both ranged and melee combat systems, developed in cross-functional agile team",
@@ -219,7 +278,7 @@
 		]
 	},
 	{
-		"id": 8,
+		"id": 10,
 		"slug": "abragame",
 		"name": "Abracadabra Money",
 		"description": "Interactive game project developed as part of FutureGames semester, featuring integrated APIs and real-time blockchain connection.",

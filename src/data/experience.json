@@ -1,8 +1,33 @@
 [
 	{
+		"company": "Aipify",
+		"role": "Developer",
+		"period": "2025 - Present",
+		"description": "Aipify is a portfolio of free, AI-driven apps that require no sign-up. ",
+		"achievements": [
+			"Built fully offline AI chat app with local GGUF language models using llama.cpp",
+			"Developed AI-enhanced resume and cover letter creation tool",
+			"Created portfolio of free AI-driven apps requiring no sign-up"
+		],
+		"projects": [
+			{
+				"name": "Aipify Local",
+				"slug": "aipifylocal",
+				"description": "Fully offline AI chat app running local GGUF language models",
+				"thumbnail": "/aipifylocal/hero.png"
+			},
+			{
+				"name": "AI Resume Craft",
+				"slug": "resumecraft",
+				"description": "AI-enhanced tool for creating resumes and cover letters",
+				"thumbnail": "/resumecraft/hero.png"
+			}
+		]
+	},
+	{
 		"company": "Tromb",
 		"role": "Fullstack Developer",
-		"period": "2025 - Present",
+		"period": "2025",
 		"description": "Developed React-based PDF generator with .NET backend, collaborating with designers on strict formatting requirements and integrating with existing HR systems.",
 		"achievements": [
 			"Built production PDF generator meeting all design specifications",

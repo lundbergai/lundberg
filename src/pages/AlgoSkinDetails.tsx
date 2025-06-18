@@ -48,7 +48,7 @@ const AlgoSkinDetails = () => {
 						<div className="flex items-center text-sm text-gray-600">
 							<ExternalLink className="w-4 h-4 mr-2" />
 							<a
-								href="http://algo.skin/"
+								href={project.link}
 								target="_blank"
 								rel="noopener noreferrer"
 								className="text-sm text-gray-500 hover:text-gray-700 transition-colors"
