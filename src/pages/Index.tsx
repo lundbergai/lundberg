@@ -172,7 +172,10 @@ const Index = () => {
 												<p className="text-gray-500 text-sm">{job.period}</p>
 											</div>
 
-											<p className="text-gray-700 text-sm mb-4">{job.description}</p>
+											<p
+												className="text-gray-700 text-sm mb-4"
+												dangerouslySetInnerHTML={{ __html: job.description }}
+											></p>
 
 											<ul className="space-y-2 mb-4">
 												{job.achievements.map((achievement, achievementIndex) => (
@@ -253,7 +256,10 @@ const Index = () => {
 												<p className="text-gray-500 text-sm">{job.period}</p>
 											</div>
 
-											<p className="text-gray-700 text-sm mb-4">{job.description}</p>
+											<p
+												className="text-gray-700 text-sm mb-4"
+												dangerouslySetInnerHTML={{ __html: job.description }}
+											></p>
 
 											<ul className="space-y-2 mb-4">
 												{job.achievements.map((achievement, achievementIndex) => (
