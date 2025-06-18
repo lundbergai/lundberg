@@ -4,20 +4,21 @@
 		"slug": "aipifylocal",
 		"name": "Aipify Local",
 		"description": "Fully offline AI chat application that runs local GGUF language models using llama.cpp, ensuring complete data privacy by guaranteeing that no user data leaves the local network",
-		"heroImage": "/aipifylocal/hero.png",
+		"heroImage": "/aipifylocal/hero.jpg",
 		"images": [
-			"/aipifylocal/chat-interface.png",
-			"/aipifylocal/model-selection.png",
-			"/aipifylocal/settings.png"
+			"/aipifylocal/2.png",
+			"/aipifylocal/3.jpg",
+			"/aipifylocal/4.jpg"
 		],
-		"link": "https://aipify-local.vercel.app/",
+		"link": "https://local-llm-ecru.vercel.app/",
 		"technologies": [
 			"React",
 			"TypeScript",
 			"Vite",
 			"Node.js",
 			"Llama.cpp",
-			"GGUF"
+			"GGUF",
+			"Gemini API"
 		],
 		"company": "Aipify",
 		"role": "Developer",
@@ -32,13 +33,13 @@
 		"slug": "resumecraft",
 		"name": "AI Resume Craft",
 		"description": "AI-enhanced tool for creating professional resumes and cover letters, built with React and integrated with OpenAI API to help users craft compelling job application materials",
-		"heroImage": "/resumecraft/hero.png",
+		"heroImage": "/resumecraft/hero.jpg",
 		"images": [
-			"/resumecraft/editor.png",
-			"/resumecraft/templates.png",
-			"/resumecraft/ai-suggestions.png"
+			"/resumecraft/2.jpg",
+			"/resumecraft/3.jpg",
+			"/resumecraft/4.jpg"
 		],
-		"link": "https://ai-resume-craft.vercel.app/",
+		"link": "https://ai-resume-craft-xi.vercel.app/",
 		"technologies": [
 			"React",
 			"TypeScript",
@@ -46,14 +47,14 @@
 			"Node.js",
 			"Firebase",
 			"Vercel",
-			"OpenAI API",
+			"Gemini API",
 			"Lovable"
 		],
 		"company": "Aipify",
 		"role": "Developer",
 		"achievements": [
 			"Developed AI-powered resume and cover letter creation tool",
-			"Integrated OpenAI API for intelligent content generation",
+			"Integrated Gemini API for intelligent content generation",
 			"Built user-friendly interface for professional document creation"
 		]
 	},
