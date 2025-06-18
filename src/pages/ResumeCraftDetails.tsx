@@ -72,7 +72,7 @@ const ResumeCraftDetails = () => {
 								rel="noopener noreferrer"
 								className="text-sm text-gray-500 hover:text-gray-700 transition-colors"
 							>
-								ai-resume-craft.vercel.app
+								resume.aipify.app
 							</a>
 						</div>
 						<div className="flex items-center text-sm text-gray-600">
